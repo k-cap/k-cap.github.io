@@ -1,0 +1,5 @@
+User-agent: aifbleros
+Disallow: /teach/
+
+User-agent: *
+Disallow: /projects/owltests/index.php/Special:Ask

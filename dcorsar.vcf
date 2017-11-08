@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Corsar;David;;
+PHOTO;VALUE=URL:http\://www.csd.abdn.ac.uk/images/people/dcorsar.jpg
+TZ: 00\:00
+GEO:57.165523,-2.104139
+FN:David Corsar
+LOGO;VALUE=URL:http\://www.csd.abdn.ac.uk/images/university/logo.gif
+TITLE:
+TEL;WORK;VOICE:+44 (0)1224 274485
+TEL;WORK;FAX:+44 (0)1224 273422
+ADR;WORK:;;Room 238,Meston Building, Department of Computing Science, University of Aberdeen, Kings College, Aberdeen, Scotland UK AB24 3UE
+EMAIL;PREF;INTERNET:dcorsar@csd.abdn.ac.uk
+URL:http\://www.csd.abdn.ac.uk/people/homepage.php?userid=dcorsar
+END:VCARD

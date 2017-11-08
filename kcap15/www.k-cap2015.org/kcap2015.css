@@ -1,0 +1,464 @@
+/* style sheet for K-CAP 2015 website */
+
+ 
+body { font: 80% Verdana, Helvetica, Arial, sans-serif;
+       background: "#5FA1F7";
+       color: Black;
+       margin: 0;
+       padding: 0;
+}
+
+b { font-weight: bold;
+/*    color: #436976; */
+}
+
+table {
+    font-size: 100%;
+    border-style: none;
+    border-collapse: collapse;
+}
+
+tr {
+	border-style: none;
+}
+
+th {
+	background-color: #A3C8FA;
+	border-color: white;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    border-style: none; 
+    vertical-align: top;
+}
+td.topandright {
+    border-style: solid solid none none; 
+    border-color: black; 
+    border-width: 1px; 
+    vertical-align: top;
+}
+td.toponly {
+    border-style: solid none none none; 
+    border-color: black; 
+    border-width: 1px; 
+    vertical-align: top;
+}
+td.rightonly {
+    border-style: none solid none none; 
+    border-color: black; 
+    border-width: 1px; 
+    vertical-align: top;
+}
+td.hammond {
+       background-color: #D7E4BD;
+    border-style: solid;
+    border-color: white; 
+    border-width: 1px; 
+    vertical-align: top;
+    }
+td.workshop {
+       background-color: #FCD5BB;
+    border-style: solid;
+    border-color: white; 
+    border-width: 1px; 
+    vertical-align: top;
+    }
+td.break1 {
+       background-color: #FDEADA;
+    border-style: solid;
+    border-color: white; 
+    border-width: 1px; 
+    vertical-align: top;
+    }
+td.lunch {
+       background-color: rgb(239,221,239);
+    border-style: solid;
+    border-color: white; 
+    border-width: 1px; 
+    vertical-align: top;
+    }
+td.lunch2 {
+       background-color: rgb(193,199,241);
+    border-style: solid;
+    border-color: white; 
+    border-width: 1px; 
+    vertical-align: top;
+    }
+td.watsonfoyer {
+       background-color: #EDF6F9;
+    border-style: solid;
+    border-color: white; 
+    border-width: 1px; 
+    vertical-align: top;
+    }
+td.watson {
+       background-color: #B7DEE8;
+    border-style: solid;
+    border-color: white; 
+    border-width: 1px; 
+    vertical-align: top;
+    }
+td.time {
+       background-color: #F2F2F2;
+    border-style: solid none solid solid;
+    border-color: white; 
+    border-width: 1px; 
+    vertical-align: top;
+    text-align: right;
+    }
+
+
+
+
+a {
+    text-decoration: none;
+    color: #83A8EA;
+    padding: 2px;
+    background-color: transparent;
+}
+
+a:hover {
+	background-color: #eeeeee;
+}
+
+a:visited {
+    color: #83A8EA;
+}
+
+p {
+/*    margin: 0.5em 0.5em 1em 10px;
+    text-align: justify; */
+    line-height: 1.5em;
+}
+
+hr {
+/*    clear: both;
+    height: 1px;
+    color: #8CACBB;
+    background-color: transparent; */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: Black;
+    clear: left;
+    font: 100% Verdana, Helvetica, Arial, sans-serif;
+/*    border-bottom: 1px solid #8CACBB; */
+}
+
+h1 {
+    font-size: 150%;
+    margin: 30px 0px 30px 10px;
+}
+
+h2 {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 100%;
+    font-weight: bold;
+    margin: 0;
+}
+
+h4 {
+    font-size: 100%;
+}
+
+h5 {
+    font-size: 100%;
+}
+
+h6 {
+    font-size: 80%;
+}
+
+ul { 
+    list-style: image;
+    list-style-image: url(http://www.k-cap2015.org/sub.gif);
+    margin: 0em 0em 0em 2em;
+    padding:0;
+}
+
+ol {
+    line-height: 1.5em;
+    margin: 0.5em 0 0 2em;
+    padding:0;
+}
+
+li {
+    margin: 0.2em 0em 0em 0em;
+}
+
+dl {
+}
+
+dt {
+    font-weight: bold;    
+}
+
+dd {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+pre {
+    padding: 0;
+    margin: 0;
+    background-color: #dee7ec;
+}
+
+div.menu {
+	color: #000000;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+div.menusub {
+    margin-left: 1em;
+    margin-top: 0.5em;
+    font-size: 80%;
+}
+
+div.headline {
+    background: #DEE7EC;
+    border: 1px solid #8CACBB;
+    border-style: solid none solid none;
+    color: #436976;
+    font-size: 150%;
+    padding: 3px 10px 3px 10px;
+}
+    
+div.boxtop {
+    background: #DEE7EC;
+    border: 1px solid #8CACBB;
+    border-style: solid solid none solid;
+    color: #436976;
+    display: inline;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+}
+
+div.boxbody {
+    border: 1px solid #8CACBB;
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+}
+
+div.boxbody2 {
+    border: 1px solid #8CACBB;
+    border-style: none solid solid solid;
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+}
+
+div.strikethru {
+	text-decoration: line-through;
+}
+
+
+img.bio {
+	float: left;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+#cf {
+  position:relative;
+  height:80px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@-webkit-keyframes cfFadeInOut {
+ 0% { opacity:1; }
+ 25% { opacity:1; }
+ 33% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
+}
+
+@-moz-keyframes cfFadeInOut {
+ 0% { opacity:1; }
+ 25% { opacity:1; }
+ 33% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
+}
+
+@-o-keyframes cfFadeInOut {
+ 0% { opacity:1; }
+ 25% { opacity:1; }
+ 33% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
+}
+
+@keyframes cfFadeInOut {
+ 0% { opacity:1; }
+ 25% { opacity:1; }
+ 33% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
+}
+
+#cf img {
+	-webkit-animation-name: cfFadeInOut;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 12s;
+	-moz-animation-name: cfFadeInOut;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-duration: 12s;
+	-o-animation-name: cfFadeInOut;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count: infinite;
+	-o-animation-duration: 12s;
+	animation-name: cfFadeInOut;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 12s;
+}
+
+#cf img:nth-of-type(1) {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  animation-delay: 8s;
+}
+#cf img:nth-of-type(2) {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s;
+}
+#cf img:nth-of-type(3) {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+
+#cf2 {
+  position:relative;
+  height:80px;
+  margin:0 auto;
+}
+
+#cf2 img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@-webkit-keyframes cf2FadeInOut {
+ 0% { opacity:1; }
+ 7% { opacity:1; }
+ 15% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
+}
+
+@-moz-keyframes cf2FadeInOut {
+ 0% { opacity:1; }
+ 7% { opacity:1; }
+ 15% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
+}
+
+@-o-keyframes cf2FadeInOut {
+ 0% { opacity:1; }
+ 7% { opacity:1; }
+ 15% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
+}
+
+@keyframes cf2FadeInOut {
+ 0% { opacity:1; }
+ 7% { opacity:1; }
+ 15% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
+}
+
+#cf2 img {
+	-webkit-animation-name: cf2FadeInOut;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 21s;
+	-moz-animation-name: cf2FadeInOut;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-duration: 21s;
+	-o-animation-name: cf2FadeInOut;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count: infinite;
+	-o-animation-duration: 21s;
+	animation-name: cf2FadeInOut;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 21s;
+}
+
+#cf2 img:nth-of-type(1) {
+  -webkit-animation-delay: 18s;
+  -moz-animation-delay: 18s;
+  -o-animation-delay: 18s;
+  animation-delay: 18s;
+}
+#cf2 img:nth-of-type(2) {
+  -webkit-animation-delay: 15s;
+  -moz-animation-delay: 15s;
+  -o-animation-delay: 15s;
+  animation-delay: 15s;
+}
+#cf2 img:nth-of-type(3) {
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  animation-delay: 12s;
+}
+#cf2 img:nth-of-type(4) {
+  -webkit-animation-delay: 9s;
+  -moz-animation-delay: 9s;
+  -o-animation-delay: 9s;
+  animation-delay: 9s;
+}
+#cf2 img:nth-of-type(5) {
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -o-animation-delay: 6s;
+  animation-delay: 6s;
+}
+#cf2 img:nth-of-type(6) {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-delay: 3s;
+}
+#cf2 img:nth-of-type(7) {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+

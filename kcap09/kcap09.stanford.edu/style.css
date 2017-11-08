@@ -1,0 +1,321 @@
+/* 
+Some styles taken from Joe Rozzi from Cirkuit Networks, Inc. - http://www.cirkuit.net
+Free to use, please give credit for original design.
+*/
+
+html,body {
+        margin:0;
+        padding:0
+}
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+        text-align:center;
+}
+
+/************ All round styles *********/
+
+.itable {
+    padding: 10px;
+}
+
+
+/* header tags */
+h1 {
+	color:#2a56d6;
+	font-size:120%;
+	display:block;
+	width:100%;
+}
+
+h2 {
+	font-size:120%;
+	display:block;
+	width:100%;
+	border-bottom:2px solid #F0F0F0;
+	margin:0;
+	padding:0;
+	color:#557ef5;
+}
+
+/* anchor links */
+a, a:visited {
+	text-decoration:none;
+	color:#2a56d6;
+}
+
+a:hover, a:visited:hover {
+	color:#2a56d6; 
+	text-decoration:underline;
+}
+
+/************ Header *********/
+
+#header_wrapper  {
+	width:1000px;
+}
+
+/* blue wave header image */
+#header {
+        clear:right; 
+	background-image:url(images/header-img.jpg); 
+	background-repeat:no-repeat;
+        background-position:center center;
+	text-align:center;
+	margin-top:20px;
+	
+}
+
+#header h1 { 
+      color:#2a56d6;      
+       margin-left:-15px;
+       margin-bottom:20px;
+       line-height:1.5em;
+       text-align:center;
+       font-size:340%
+}
+    
+.h1small {
+      font-size:40%;
+      line-height:1.3em;
+/*      margin-top:50px; */
+}
+       
+.h1smaller {
+        font-size:30%;
+	line-height:1.2em;
+}
+
+
+/************ Container *********/
+
+#container {
+        text-align:left;
+        font-size:80%;
+        color:#666666;
+        width:1000px;
+        margin:0 auto;
+}
+
+#wrapper {
+        float:left;
+        width:100%
+}
+
+
+
+/************ Center content *********/
+
+#content {
+        margin: 0 250px 0 230px;
+        line-height:1.4;
+}
+
+
+/************ Left navigation *********/
+
+#navigation {
+	float:left;
+	width:200px;
+        margin-left:-1000px;
+	line-height:135%; 
+	padding:5px; 
+	text-align:left; 
+	font-size:100%; 
+}
+
+#navigation p {
+	padding:0;
+	margin:8px 0 0 8px;
+}
+
+#navigation ul { /* starts left navigation */
+	margin:8px 0 0 8px;
+	padding:0;
+	text-align:left;
+}
+
+#navigation li { /* main navigation list item */
+	display:block;
+	list-style:none;
+	width:100%;
+	margin:0 0 5px 0;
+	padding:0;
+	font-weight:bold;
+}
+
+#navigation li.sub { /* sub navigation list item */
+	display:block;
+	list-style:none;
+	width:100%;
+	padding:0;
+	margin:0 0 3px 10px;
+	font-weight:normal;
+}
+
+#navigation a, #navigation a:visited { /* mouse out navigation anchor link styles */
+	display:block;
+	width:100%;
+	padding:0px;
+	text-decoration:none;
+	color:#666666;
+	border-bottom:1px solid #FFFFFF;
+}
+
+#navigation a:hover, #navigation a:visited:hover { /* mouse over navigation anchor link styles */
+	display:block;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	color:#2a56d6;
+	text-decoration:underline;
+	border-bottom:1px solid #FFFFFF;
+}
+
+
+/************ Right navigation - extra *********/
+#extra {
+	float:left;
+	width:200px;
+        margin-left:-200px;      
+	line-height:135%;
+	text-align:left;
+	padding-top:5px; 
+	font-size:100%; 
+}
+
+
+#extra p {
+	padding:0;
+	margin:8px 0 0 8px;
+}
+
+#extra ul { /* starts right navigation */
+	margin:8px 0 0 8px;
+	padding:0;
+	text-align:left;
+}
+
+#extra li { /* main navigation list item */
+	list-style:none;
+	display:block;
+	width:100%;
+	margin:0 0 10px 0; 
+	padding:5; 
+        font-weight:bold;
+}
+
+#extra li.sub { /* sub navigation list item */
+	display:block;
+	list-style:none;
+	width:100%;
+	padding:0;
+	margin:0 0 3px 10px;
+	font-weight:normal;
+}
+	
+#extra li.news { /* sub news navigation list item */
+	display:block;
+	list-style:none;
+	width:100%;
+	color: #7e0000;
+	margin:0 0 10px 0;
+	font-weight:bold;
+}
+
+#extra li.oldnews { /* sub old news navigation list item */
+	display:block;
+	list-style:none;
+	width:100%;
+	color:#BBBBBB;
+	margin:0 0 10px 0;
+	font-weight:bold;	
+}
+
+#extra a, #extra a:visited { /* mouse out navigation anchor link styles */	
+	width:100%;
+	margin:0px;
+	padding:0px;
+	color: #7e0000;
+	text-decoration:underline; 
+        border-bottom:1px solid #FFFFFF;
+}
+
+#extra a:hover, #extra a:visited:hover { /* mouse over navigation anchor link styles */        
+	width:100%;
+	margin:0px;
+	padding:0px;
+	color:#2a56d6;
+	text-decoration:underline;
+        border-bottom:1px solid #FFFFFF;
+}
+
+
+/************ Footer *********/
+
+#footer_wrapper {
+	margin:0 auto;
+	padding:0;
+        width:100%;
+	border-top:6px double #CCCCCC;
+	font-size:80%;
+	text-align:center;
+	clear:both;
+}
+
+#footer {
+	padding-right:5px;
+	margin:0;
+	line-height:190%;
+	text-align:right;
+	clear:both;
+	vertical-align:middle;
+}
+
+/************ Misc *********/
+
+.padded_cell {
+	padding-left:7px;
+	padding-right:7px;
+	border-style:solid;
+	border-width:1px;
+	border-collapse: collapse;
+}
+
+.collapsed_table {
+	border-width:1px;
+	border-style:solid;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+.paper_table {
+	padding: 3px;
+	border-color: gray;
+}
+
+
+.ws_table {
+	padding: 5px;
+	border-color: gray;
+	vertical-align: text-top;
+}
+
+.ws_table_column1 {
+	padding: 5px;
+	border-color: gray;
+	vertical-align: text-top;
+	width: 20%;
+}
+
+.schedule_table_column_1 {
+	padding: 3px;
+	border-color: gray;
+	width: 25%;
+}
+
+.schedule_table_column_2 {
+	padding: 3px;
+	border-color: gray;
+}
+

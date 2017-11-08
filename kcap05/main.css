@@ -1,0 +1,38 @@
+body
+{
+  font-size: 12pt;
+  font-family: Arial, Helvetica, Sans-Serif;
+  background: url(images/main_view1.jpg) center center;
+  background-repeat: no-repeat;
+  background-color: white;
+
+}
+p { font-family: Arial, Helvetica, Sans-Serif; font-size: 12pt; }
+td { font-family: Arial, Helvetica, Sans-Serif; font-size: 12pt; }
+
+h3 { font-family: Arial, Helvetica, Sans-Serif; font-size: 14pt; }
+h2 { font-family: Arial, Helvetica, Sans-Serif; font-size: 16pt; }
+
+
+
+a:active{  font-weight: bolder;  color: #3d62bd;  text-decoration: none;}
+a:visited {  font-weight: bolder; color: #3d62bd; text-decoration: none;} 
+a:hover {  font-weight: bolder;  color: #ee8800;  text-decoration: none;}
+a:link {  font-weight: bolder; color: #3d62bd; text-decoration: none;}
+
+.small { font-size: 8pt; }
+.mediumlarge {font-size: 11pt; }
+.large { font-size: 12pt; }
+
+  
+  
+}
+
+
+
+
+
+
+
+
+

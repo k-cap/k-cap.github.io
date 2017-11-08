@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /agents/logos/
+Disallow: /staff_services.html
+Disallow: /hr/
+Disallow: /techlib/
+Disallow: /action/
+Disallow: /boffice/
+Disallow: /cgi-bin/
+Disallow: /newarch/misc.html
+Disallow: /newarch/reports.html
+Disallow: /~knoblock/web/
+Disallow: /kp-seed
+Disallow: /newarch/iDOCS/
+Disallow: /newarch/newarchmeet/

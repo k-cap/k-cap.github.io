@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+    lang="en" xml:lang="en">
+
+
+<head profile="http://gmpg.org/xfn/11">
+
+    <!-- Hide IE6 Image Toolbar -->
+    <meta http-equiv="ImageToolbar" content="no" />
+
+    
+	<!-- Drupal Head-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript"><!--
+  var BASE_URL = "/";
+--></script>
+
+
+
+	<!-- UofC and Drupal Styles-->
+<style type="text/css" media="all">@import "/modules/book/book.css";</style>
+<style type="text/css" media="all">@import "/modules/cck/content.css";</style>
+<style type="text/css" media="all">@import "/modules/cck/fieldgroup.css";</style>
+<style type="text/css" media="all">@import "/modules/event/event.css";</style>
+<style type="text/css" media="all">@import "/modules/img_assist/img_assist.css";</style>
+<style type="text/css" media="all">@import "/modules/node/node.css";</style>
+<style type="text/css" media="all">@import "/modules/system/defaults.css";</style>
+<style type="text/css" media="all">@import "/modules/system/system.css";</style>
+<style type="text/css" media="all">@import "/modules/user/user.css";</style>
+<style type="text/css" media="all">@import "http://www.cpsc.ucalgary.ca/styles/uofc-level-b.css";</style>
+<style type="text/css" media="all">@import "http://www.cpsc.ucalgary.ca/includes/custom/global.css";</style>
+
+<!--[if IE]>
+<style type="text/css" media="all">@import "http://www.cpsc.ucalgary.ca/styles/ie/uofc-level-b.css";</style>
+<![endif]-->
+
+
+	<!-- UofC Scripts-->
+<script type="text/javascript" src="http://www.cpsc.ucalgary.ca/misc/jquery.js"></script>
+<script type="text/javascript" src="http://www.cpsc.ucalgary.ca/misc/drupal.js"></script>
+<script type="text/javascript" src="http://www.cpsc.ucalgary.ca/modules/img_assist/img_assist.js"></script>
+<script type="text/javascript" src="http://www.cpsc.ucalgary.ca/scripts/uofc.js"></script>
+
+	<!-- Drupal Page Title-->
+<title>SENG Focus Area: Evolutionary Software Engineering | Dept. of Computer Science - University of Calgary</title>
+
+	<!-- RSS Feed Support-->
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.cpsc.ucalgary.ca/feed" />
+
+</head>
+
+<body>
+
+<!--<h1>/themes/uofc_b/images/UofC-Crest-70.gif</h1>-->
+
+<!-- PAGE WRAPPER DIV START -->
+<div class="uc-page uc-level-2">
+
+
+<!-- THIS IS NOW - STATIC HEADER START -->
+<div id="uc-global-header" class="uc-section">
+
+    <div class="identity"><h1><a href="http://www.ucalgary.ca/">UofC &#8226; This Is Now</a></h1></div>
+
+    <ul class="access">
+        <li><a href="evolutionary#uc-banner-headline">Skip to Headline</a></li>
+        <li><a href="evolutionary#uc-navigation">Skip to Navigation</a></li>
+        <li><a href="evolutionary#uc-primary-content">Skip to Content</a></li>
+        <li><a href="evolutionary#uc-auxiliary-content">Skip to Sidebar</a></li>
+    </ul>
+
+    <div class="access">UofC Navigation</div>
+
+    <ul id="uc-global-navigation">
+        <li class="first"><a href="http://www.ucalgary.ca/prospectivestudents/">Prospective Students</a></li>
+        <li><a href="http://www.ucalgary.ca/currentstudents/">Current Students</a></li>
+        <li><a href="http://www.ucalgary.ca/alumni/">Alumni</a></li>
+        <li><a href="http://www.ucalgary.ca/community/">Community</a></li>
+    </ul>
+
+ 	<!-- CB update - 20071213 - this search is old and has been replace by below code
+    <form id="uc-global-search" method="get" action="http://www.google.com/u/Calgary">
+        <div>
+            <label for="uc-global-search-field">Search UofC:</label>
+            <input type="text" id="uc-global-search-field" name="q" />
+            <input type="hidden" name="domains" value="ucalgary.ca" />
+            <input type="hidden" name="sitesearch" value="ucalgary.ca" />
+            <input type="submit" id="uc-global-search-submit" value="Go" />
+        </div>
+    </form>
+    -->
+    
+    <!-- CB update - 20071213 - new search code added -->
+    <!-- Google CSE Search Box Begins -->
+<!--  <form id="searchbox_009097120813753307438:cbso0polmm4" action="http://www.ucalgary.ca/search_results.html"> -->
+  <form id="uc-global-search" action="http://www.ucalgary.ca/search_results.html">
+    <div>
+      <label for="uc-global-search-field">Search UofC:</label>
+      <!-- input type="hidden" name="cx" value="009097120813753307438:cbso0polmm4" / -->
+      <input type="hidden" name="cx" value="016212948531554246733:h_v_efobwui" />
+      <input type="hidden" name="cof" value="FORID:11" />
+      <!-- input name="q" type="text" size="20" value="Search UofC"/ -->
+      <input id="uc-global-search-field" type="text" name="q" /> 
+      <input id="uc-global-search" type="submit" name="sa" value="Go" />
+    <!-- img src="http://www.google.com/coop/images/google_custom_search_smnar.gif" alt="Google Custom Search" / -->
+
+    </div>
+  </form>
+<!-- Google CSE Search Box Ends -->
+
+    <ul id="uc-global-references">
+        <li class="first"><a href="http://www.ucalgary.ca/it/" title="Information Technologies">IT</a></li>
+        <li><a href="http://my.ucalgary.ca/" title="My UofC Portal"> MY U OF C</a></li>
+        <li><a href="http://www.ucalgary.ca/directory/" title="Contact Information and Personnel Directory">Contacts</a></li>
+    </ul>
+
+</div>
+<!-- HEADER STOP -->
+
+
+<!-- BANNER START -->
+<div id="uc-banner" class="uc-section">
+
+    <div class="uc-banner-content">
+
+        <div id="uc-banner-logo">
+            
+	<!-- Banner Logo-->
+<a href="http://www.ucalgary.ca/"><img src="http://www.cpsc.ucalgary.ca/themes/uofc_b/images/UofC-Crest-70.gif"  alt="The University of Calgary" /></a>
+        </div>
+
+        <div id="uc-banner-image">
+            
+	<!-- Banner Image-->
+<img src="http://www.cpsc.ucalgary.ca/themes/uofc_b/images/research_banner.png"  alt=""  title="Two handed warcraft: Tabletop gaming." />
+        </div>
+
+        <div id="uc-banner-headline">
+                    </div>
+
+    </div>
+
+</div>
+<!-- BANNER STOP -->
+
+
+<!-- TOP MENU + LEFT MENU START -->
+<div id="uc-navigation" class="uc-section">
+
+    <div class="access">Site Navigation</div>
+
+    <!--
+    <div class="primary">
+            </div>-->
+    
+    
+    <div class="primary">
+                   <ul class="links primary-links"><li class="first menu-1-1-2"><a href="http://www.cpsc.ucalgary.ca/" class="menu-1-1-2">Home</a></li>
+<li class="menu-1-2-2"><a href="http://www.cpsc.ucalgary.ca/undergrad" class="menu-1-2-2">Undergraduate</a></li>
+<li class="menu-1-3-2"><a href="http://www.cpsc.ucalgary.ca/grad" class="menu-1-3-2">Graduate</a></li>
+<li class="menu-1-4-2"><a href="http://www.cpsc.ucalgary.ca/contactus" title="Faculty &amp; Staff" class="menu-1-4-2">Faculty &amp; Staff</a></li>
+<li class="menu-1-5-2"><a href="http://www.cpsc.ucalgary.ca/alumni" class="menu-1-5-2">Alumni</a></li>
+<li class="menu-1-6-2"><a href="http://www.cpsc.ucalgary.ca/cpsc_research" class="menu-1-6-2">Research</a></li>
+<li class="last menu-1-7-2"><a href="http://www.cpsc.ucalgary.ca/tech_support" class="menu-1-7-2">Tech Support</a></li>
+</ul>        </div>
+    
+    <!--          <ul class="links primary-links"><li class="first menu-1-1-2"><a href="/" class="menu-1-1-2">Home</a></li>
+<li class="menu-1-2-2"><a href="/undergrad" class="menu-1-2-2">Undergraduate</a></li>
+<li class="menu-1-3-2"><a href="/grad" class="menu-1-3-2">Graduate</a></li>
+<li class="menu-1-4-2"><a href="/contactus" title="Faculty &amp; Staff" class="menu-1-4-2">Faculty &amp; Staff</a></li>
+<li class="menu-1-5-2"><a href="/alumni" class="menu-1-5-2">Alumni</a></li>
+<li class="menu-1-6-2"><a href="/cpsc_research" class="menu-1-6-2">Research</a></li>
+<li class="last menu-1-7-2"><a href="/tech_support" class="menu-1-7-2">Tech Support</a></li>
+</ul>    -->
+
+    <div class="secondary">
+        
+	<!-- Left Menu-->
+<div class="block block-menu" id="block-menu-407">  <h2 class="title">Welcome to the Research Pages</h2>  <div class="content">
+<ul class="menu">
+<li class="leaf activepath"><a href="http://www.cpsc.ucalgary.ca/cpsc_research/areas">Areas</a></li>
+<li class="leaf"><a href="http://www.cpsc.ucalgary.ca/cpsc_research/groups">Groups</a></li>
+<li class="leaf"><a href="http://www.cpsc.ucalgary.ca/cpsc_research/icore">iCORE Supported Groups</a></li>
+<li class="leaf"><a href="http://www.cpsc.ucalgary.ca/cpsc_research/ethics_umbrella">Ethics Umbrella Application</a></li>
+<li class="leaf"><a href="http://www.cpsc.ucalgary.ca/cpsc_research/advisory">Industrial Advisory Board</a></li>
+<li class="leaf"><a href="http://www.cpsc.ucalgary.ca/cpsc_research/annual_reports">Annual Reports</a></li>
+<li class="leaf"><a href="https://dspace.ucalgary.ca/handle/1880/45242">Technical Reports</a></li>
+<li class="leaf"><a href="http://www.cpsc.ucalgary.ca/cpsc_research/news">News</a></li>
+<li class="leaf"><a href="http://www.cpsc.ucalgary.ca/cpsc_research/event">Events</a></li>
+
+</ul>
+</div></div>
+    </div>
+
+</div>
+<!-- TOP MENU + LEFT MENU STOP -->
+
+
+<!-- CONTENT AREA + QUICK LINKS START -->
+<div id="uc-content" class="uc-section">
+
+    <div class="access"></div>
+
+    <div id="uc-primary-content">
+        
+	<!-- Page Title Heading 1-->
+<h1 class="title">SENG Focus Area: Evolutionary Software Engineering</h1>
+
+	<!-- Main Content-->
+
+    <div class="node">
+        <div class="info">Submitted by admin on Mon, 07/16/2007 - 14:46.</div>
+        <div class="content">
+
+        <!-- EDITABLE NODE CONTENT START -->
+
+        <p>
+Software systems evolve over time. This evolution can be caused by changes in user needs and expectations as well as by changes to the technological or business conditions. An evolving system will be most successful if it is implemented in small increments where each increment has a clear measure of success (for example, by following agile development approaches). Evolutionary Software Engineering refers to the application of a systematic, disciplined, quantifiable approach to development, operation, and maintenance of evolving software systems.
+</p>
+<p><span class="insideTitle2">Faculty</span> </p>
+<table border="0" cellspacing="10" align="right" style="width: 210px; height: 1225px">
+<tbody>
+<tr>
+<td>
+<div align="center">
+			<em>click on images below</em>
+			</div>
+<p>			<em><em><a href="http://ase.cpsc.ucalgary.ca/ase/index.php/AgilePlanning/AgilePlanner"><img src="../../images/research/Table.jpg" border="0" alt="Agile Planner" width="200" height="150" align="right" /></a> </em></em></td>
+</tr>
+<tr>
+<td><a href="http://lsmr.cs.ucalgary.ca/projects/heuristic/strathcona/"><img src="../../images/research/strathcona_200.png" border="0" alt="Strathcona" width="200" height="66" align="right" /></a> </td>
+</tr>
+<tr>
+<td><a href="http://ase.cpsc.ucalgary.ca/ase/index.php/EATDD/FitClipse"><img src="../../images/research/FitClipse.jpg" border="0" alt="FitClipse" width="200" height="150" align="right" /></a> </td>
+</tr>
+<tr>
+<td><a href="http://lsmr.cs.ucalgary.ca/projects/heuristic/strathcona/"><img src="../../images/research/strathcona-code1.png" border="0" alt="Strathcona" width="200" height="62" align="right" /></a> </td>
+</tr>
+<tr>
+<td><a href="http://lsmr.cs.ucalgary.ca/projects/reuse/gilligan/"><img src="../../images/research/gilligan.jpg" border="0" alt="gilligan" width="200" height="117" align="right" /></a> </td>
+</tr>
+<tr>
+<td><a href="http://lsmr.cs.ucalgary.ca/projects/heuristic/reverb/"><img src="../../images/research/Reverb_Results_View.jpg" border="0" alt="reverb" width="200" height="57" align="right" /></a> </td>
+</tr>
+<tr>
+<td><a href="http://lsmr.cs.ucalgary.ca/projects/tre/"><img src="../../images/research/tre.png" border="0" alt="tre" width="200" height="156" align="right" /></a> </td>
+</tr>
+</tbody>
+</table>
+<dl>
+<dt><a href="http://ebe.cpsc.ucalgary.ca/Frank.Maurer/">Frank Maurer</a>: </dt>
+<dd>Dr. Maurer&#39;s <a href="http://ase.cpsc.ucalgary.ca/ase/">Agile Software Engineering Lab</a> investigates agile software methodologies, executable acceptance test driven development, integrating agile methods and interaction design, tools for agile teams (specifically for globally distributed software development), web engineering and experience &amp; knowledge management. </dd>
+<dt><a href="http://sern.ucalgary.ca/~ruhe">Guenther Ruhe</a>: </dt>
+<dd>The laboratory for Software Engineering Decision Support is a team of students and researchers who look at the early phases of evolutionary software system development from a decision-making perspective. We are following a multi-disciplinary research approach and have integrated concepts and approaches from decision science, artificial intelligence, knowledge management, and computational intelligence to achieve novel results in software engineering. An example of the research and development done in the lab is the decision support system ReleasePlanner (see <a href="http://www.releaseplanner.com/">http://www.releaseplanner.com/</a>). For any interested students, researchers or representatives from industry, further details and points of contact can be obtained from <a href="http://www.seng-decisionsupport.ucalgary.ca/">http://www.seng-decisionsupport.ucalgary.ca/</a>. </dd>
+<dt><a href="http://www.ucalgary.ca/~sillito/">Jonathan Sillito</a>: </dt>
+<dd>My research interests include empirical software engineering, program comprehension and programming tool support. I am currently researching how archived project information can be used to improve software development. </dd>
+<dt><a href="http://cpsc.ucalgary.ca/~schock">Craig Schock</a>: </dt>
+<dd>Software Engineering Education</dd>
+<dt><a href="http://cpsc.ucalgary.ca/~rwalker">Robert Walker</a>: </dt>
+<dd>In the Laboratory for Software Modification Research, we are interested in the evolutionary nature of software systems: how they are designed, how they are implemented, and how they are changed. This involves two key elements: (1) the properties of real software systems, and (2) the constraints of real people. Research in the lab focuses on helping people make better software, through tool support, improved design and implementation techniques, and better means of planning for the future. Some keywords and phrases include: aspect-oriented software development, heuristic software search, lightweight software analysis, pragmatic software reuse, developer-oriented tools.<br />
+</dd>
+<dt><a href="http://cpsc.ucalgary.ca/~zimmerth/">Tom Zimmermann</a>: </dt>
+<dd>Tom Zimmermann&#39;s research focusses on mining the history of software projects in order to help managers and developers learning from past successes and failures. In addition, he is interested in program analysis and development tools. </dd>
+<dd>
+</dd>
+</dl>
+<p class="insideTitle2">
+Associated Faculty
+</p>
+<dl>
+<dt><a href="http://cpsc.ucalgary.ca/~denzinge">Jörg Denzinger:</a> </dt>
+<dd>Dr. Denzinger works on intelligence-based threat-testing of systems and agent-based requirements negotiation. </dd>
+<dt><a href="http://cpsc.ucalgary.ca/~kremer/">Robert Kremer:</a> </dt>
+<dd>Dr. Kremer&#39;s research interests include agent-based systems and visual languages. He is currently working on using commitment-based conversations as the basis for a new agent infrastructure, which gives a much greater degree of flexibility to conversation composition than what was previously available. <br />
+</dd>
+</dl>
+<p class="insideTitle2">
+Adjunct Professors
+</p>
+<dl>
+<dt><a href="http://iit-iti.nrc-cnrc.gc.ca/personnel/erdogmus_hakan_e.html">Hakan Erdogmus</a>: </dt>
+<dd>Agile &amp; Collaborative Practices and Software Economics </dd>
+<dt>Shari Lawrence-Pfleeger: </dt>
+<dd>Empirical Software Engineering </dd>
+<dt><a href="http://people.freenet.de/mmrichter/">Michael M. Richter</a>: </dt>
+<dd>Experience Management &amp; Case-Based Reasoning </dd>
+</dl>
+
+        <!-- EDITABLE NODE CONTENT STOP -->
+
+        </div>
+
+        
+    </div>
+
+	<!-- Content Footer-->
+
+
+    </div>
+
+    <div id="uc-auxiliary-content">
+        
+	<!-- Auxiliary Content-->
+<div class="block block-menu" id="block-menu-178">  <h2 class="title">Quick Links</h2>  <div class="content">
+<ul class="menu">
+<li class="leaf first"><a href="http://www.cpsc.ucalgary.ca/news">News</a></li>
+<li class="leaf"><a href="http://www.cpsc.ucalgary.ca/event">Events</a></li>
+<li class="leaf"><a href="http://www.cpsc.ucalgary.ca/tech_support">Tech Support</a></li>
+<li class="leaf"><a href="http://webmail.ucalgary.ca">Webmail</a></li>
+
+</ul>
+</div></div><div class="block block-search" id="block-search-0">  <h2 class="title">Search this site</h2>  <div class="content"><form action="http://www.cpsc.ucalgary.ca/search/node"  method="post" id="search-block-form">
+<div><div class="container-inline"><div class="form-item">
+ <input type="text" maxlength="128" name="search_block_form_keys" id="edit-search-block-form-keys"  size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
+</div>
+</div></form>
+</div></div>
+    </div>
+
+    <div style="clear:both"></div>
+
+</div>
+<!-- CONTENT AREA + QUICK LINKS STOP -->
+
+
+<!-- THIS IS NOW - STATIC FOOTER START -->
+<div id="uc-global-footer" class="uc-section">
+
+    <div class="uc-footer-content">
+        <ul>
+            <li class="first"><a href="mailto:webmaster@cpsc.ucalgary.ca" title="Questions? webmaster@cpsc.ucalgary.ca"><font color="#CCCCCC">Questions? webmaster@cpsc.ucalgary.ca</a></li>
+            <li><a href="http://www.ucalgary.ca/hr/" title="For Staff &amp; Faculty"><font color="#CCCCCC">Staff &amp; Faculty</a></li>
+            <li><a href="http://www.ucalgary.ca/a-zindex/" title="Alphabetical Index of UofC Website"><font color="#CCCCCC">A to Z Index</a></li>
+        </ul>
+    </div>
+
+</div>
+<!-- FOOTER STOP -->
+
+</div>
+<!-- PAGE WRAPPER DIV STOP -->
+
+
+<!-- This is google analytics code -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4479873-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+</body>
+</html>

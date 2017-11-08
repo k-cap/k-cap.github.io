@@ -1,0 +1,97 @@
+#
+# robots.txt for http://www-sop.inria.fr/
+#
+# ---------------------------------------------
+#  Pour l'indexation Inria Intranet
+# ---------------------------------------------
+User-agent: inria.fr
+# Fichiers temporaires
+Disallow: /RCS/
+Disallow: /CVS/
+Disallow: /SCCS/
+# Scripts
+Disallow: /cgi-bin/
+#Disallow: /*.php
+Disallow: /*.php3
+Disallow: /*.php4
+Disallow: /*.php5
+# helpdesk
+Disallow: /keystone/
+Disallow: /ksgener/
+# ---------------------------------------------
+# Pour Google (qui accepte les regex)
+# ---------------------------------------------
+User-agent: Googlebot
+# fichiers caches
+Disallow: /*/.[a-zA-Z0-9]+/*$
+Disallow: /*/.svn/*$
+Disallow: /*/.path/*$
+Disallow: /*/.loges/*$
+Disallow: /*/.stats/*$
+Disallow: /*/.IEEE/*$
+Disallow: /*/.tex/*$
+Disallow: /*/.time/*$
+Disallow: /*/.cccfg/*$
+Disallow: /*/.thumbs/*$
+Disallow: /*/.bak.122007/*$
+Disallow: /*/.sdo/*$
+Disallow: /*/.models/*$
+Disallow: /*/.thm/*$
+Disallow: /*/.thm/*$
+Disallow: /*/.persistent/*$
+# Espace Intranet
+Disallow: /*/DR:/*$
+Disallow: /*/DR_/*$
+Disallow: /*/DR:I/*$
+Disallow: /*/DR_I/*$
+Disallow: /*/DR:IS/*$
+Disallow: /*/DR_IS/*$
+# Fichiers temporaires
+Disallow: /*/RCS/*$
+Disallow: /*/CVS/*$
+Disallow: /*/SCCS/*$
+# Scripts 
+Disallow: /cgi-bin/
+#Disallow: /*?
+# ---------------------------------------------
+# Pour les autres robots
+# ---------------------------------------------
+User-agent: *
+# fichiers caches
+Disallow: /.svn/
+Disallow: /.path/
+Disallow: /.loges/
+Disallow: /.stats/
+Disallow: /.IEEE/
+Disallow: /.tex/
+Disallow: /.time/
+Disallow: /.cccfg/
+Disallow: /.thumbs/
+Disallow: /.bak.122007/
+Disallow: /.sdo/
+Disallow: /.models/
+Disallow: /.thm/
+# Espace Intranet
+Disallow: /DR:/
+Disallow: /DR_/
+Disallow: /DR:I/
+Disallow: /DR_I/
+Disallow: /DR:IS/
+Disallow: /DR_IS/
+# Fichiers temporaires
+Disallow: /RCS/
+Disallow: /CVS/
+Disallow: /SCCS/
+# Scripts
+Disallow: /cgi-bin/
+# helpdesk
+Disallow: /keystone/
+Disallow: /ksgener/
+# Mailing list Agos-speleo
+Disallow: /agos-sophia/sis/AGOS-Arch/	
+# Liste speleos-fr
+Disallow: /agos-sophia/sis/SFR-Arch/	
+# Mailing list Agos-speleo (alias)
+Disallow: /agos/sis/AGOS-Arch/		
+# Liste speleos-fr  (alias)
+Disallow: /agos/sis/SFR-Arch/		
