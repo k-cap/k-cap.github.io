@@ -1,0 +1,50 @@
+@media (max-width: 992px) {
+	.logo {
+		text-align: center!important;
+	}
+	.title {
+		text-align: center!important;
+	}
+	.role-profile {
+		text-align: center!important;
+	}
+	.profile-details {
+		text-align: center!important;
+	}
+	.profile {
+		padding-top: 25px!important;
+	}
+
+}
+
+.image-profile {
+	text-align: center!important;
+	height: 115px;
+	width: 115px;
+	border-radius: 50%;
+}
+
+.side {
+	border-style: double;
+	border-color: #000078;
+	margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+	.logo {
+		text-align: left!important;
+	}
+	.title {
+		text-align: right!important;
+	}
+	.role-profile {
+		text-align: right!important;
+	}
+	.profile-details {
+		text-align: left!important;
+	}
+	.profile {
+		padding-top: 50px!important;
+	}
+
+}
