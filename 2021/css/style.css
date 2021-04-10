@@ -31,6 +31,14 @@
 	padding: 4px;
 }
 
+header {
+    padding: 110px 0 50px;
+}
+
+section {
+    padding: 50px 0;
+}
+
 @media (min-width: 992px) {
 	.logo {
 		text-align: left!important;
