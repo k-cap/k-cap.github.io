@@ -25,10 +25,16 @@
 }
 
 .side {
-	border-style: double;
-	border-color: #000078;
+	/* border-style: double;
+	border-color: #000078;*/
 	margin-bottom: 10px;
 	padding: 4px;
+}
+
+.side h4{
+	background: #000078;
+	color: white;
+
 }
 
 header {
