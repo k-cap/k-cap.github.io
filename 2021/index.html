@@ -31,7 +31,10 @@
 	<script>
 		$(function() {
 			$("#nav-placeholder").load("nav.html");
-			$("#sidecol").load("side.html");
+			$("#sidecol").load("side.html", function() {
+				$("#sponsors").remove();
+			});
+
 		});
 	</script>
 
@@ -58,15 +61,38 @@
 				<div class="col-lg-12 mx-auto">
 					<div class="row">
 						<div class="col-lg-9 mx-auto">
-							<p class="text-justify">Nowadays, effective access to and use of information is a key enabler for progress. Driven by the incresing demands for knowledge-based applications and the unprecedented availability of information on the Web, the
-								study of knowledge capture is of crucial importance. Knowledge capture involves the extraction of useful knowledge from vast and diverse online sources as well as its acquisition directly from human experts.</p>
-							<p class="text-justify">
-								The Eleventh International Conference on Knowledge Capture aimed at attracting researchers from diverse areas of Artificial Intelligence, including knowledge representation, knowledge acquisition, intelligent user interfaces, problem-solving
-								and reasoning, planning, agents, text extraction, and machine learning, information enrichment and visualization, as well as researchers interested in cyber-infrastructures to foster the publication, retrieval, reuse, and integration of
-								data.<p>
 
-									<p class="text-justify">Today these data come from an increasingly heterogeneous set of resources that differ with regards to their domain, media format, quality, coverage, viewpoint, bias, and so on. More than the sheer amount of these
-										data, their heterogeneity allows us to arrive at better models and answer complex questions that cannot be addressed in isolation but require the interaction of different scientific fields or perspectives.</p>
+							<div class="row">
+								<div class="col-lg-12 mx-auto">
+									<p class="text-justify">Nowadays, effective access to and use of information is a key enabler for progress. Driven by the incresing demands for knowledge-based applications and the unprecedented availability of information on the Web, the
+										study of knowledge capture is of crucial importance. Knowledge capture involves the extraction of useful knowledge from vast and diverse online sources as well as its acquisition directly from human experts.</p>
+									<p class="text-justify">
+										The Eleventh International Conference on Knowledge Capture aimed at attracting researchers from diverse areas of Artificial Intelligence, including knowledge representation, knowledge acquisition, intelligent user interfaces, problem-solving
+										and reasoning, planning, agents, text extraction, and machine learning, information enrichment and visualization, as well as researchers interested in cyber-infrastructures to foster the publication, retrieval, reuse, and integration of
+										data.<p>
+
+											<p class="text-justify">Today these data come from an increasingly heterogeneous set of resources that differ with regards to their domain, media format, quality, coverage, viewpoint, bias, and so on. More than the sheer amount of these
+												data, their heterogeneity allows us to arrive at better models and answer complex questions that cannot be addressed in isolation but require the interaction of different scientific fields or perspectives.</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-lg-12 mx-auto">
+									<h4 class="title-section text-center">Sponsors</h4>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-lg-3 mx-auto">
+									<a href="https://www.upm.es/"><img src="img/UPMLogo.jpg"  height="200px" alt=""></a>
+								</div>
+
+								<div class="col-lg-3 mx-auto">
+									<a href="https://sigai.acm.org/"><img src="img/ACMSIGAI.svg"  height="200px" alt=""></a>
+								</div>
+							</div>
+
+
 						</div>
 
 						<div class="col-lg-3 mx-auto">
