@@ -14,7 +14,18 @@
 	.profile {
 		padding-top: 25px!important;
 	}
+}
 
+.slot {
+	background-color:#16166b;
+	color: white;
+	text-align: center;
+}
+
+.keynote {
+	background-color:#f0a5a5;
+	color: white;
+	text-align: center;
 }
 
 .image-profile {
@@ -37,6 +48,8 @@
 
 }
 
+
+
 .side h4 {
 	background: #000078;
 	color: white;
@@ -45,6 +58,13 @@
 
 header {
     padding: 110px 0 50px;
+}
+
+.tableh {
+	background: #085680;
+	color: white;
+	text-align: center;
+
 }
 
 
