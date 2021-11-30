@@ -45,7 +45,7 @@ rr:predicateObjectMap [
   ];
 
   rr:predicateObjectMap [
-    rr:predicate schema:title;
+    rr:predicate schema:name;
     rr:objectMap [
       rml:reference "TITLE"
     ]
