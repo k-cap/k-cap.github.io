@@ -19,6 +19,8 @@
 	<link href="css/style.css" rel="stylesheet">
 
 	<script src="vendor/jquery/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 
 </head>
 
@@ -34,6 +36,11 @@
 			$("#sidecol").load("side.html");
 		});
 	</script>
+	<script>
+	$(document).ready(function(){
+	  $('[data-toggle="tooltip"]').tooltip();
+	});
+	</script>
 
 	<section>
 		<div class="container">
@@ -41,7 +48,8 @@
 				<div class="col-lg-9 mx-auto">
 					<div class="row">
 						<div class="col-lg-12 mx-auto">
-							<h2 class="text-center">Main Conference Programme</h2>
+							<h2 class="text-center">Main Conference Programme<span data-toggle="tooltip" data-placement="top" title="Download accepted papers in RDF"><a href="out.nq" title="Download accepted papers in RDF"> <img border="0" src="https://www.w3.org/RDF/icons/rdf_w3c.svg"
+	alt="RDF Resource Description Framework Icon" height="40px"/></a></span></h2>
 
 
 
@@ -67,19 +75,53 @@
 									</tr>
 									<tr>
 										<td>08:30-08:45</td>
-										<td>#29: Robin Richardson, Remzi Celebi, Sven van der Burg, Djura Smits, Lars Ridder, Michel Dumontier and Tobias Kuhn. User-friendly composition of FAIR workflows in a notebook environment</td>
+										<td>#29: Robin Richardson, Remzi Celebi, Sven van der Burg, Djura Smits, Lars Ridder, Michel Dumontier and Tobias Kuhn. User-friendly composition of FAIR workflows in a notebook environment
+											<br/>
+										          <span data-toggle="tooltip" data-placement="top" title="Nanopub"><a href="https://github.com/fair-workflows/nanopub">
+										          <i class="fas fa-code"></i> Code</a></span>
+										          ,
+										          <span data-toggle="tooltip" data-placement="top" title="FAIRWorkflowsExtension"><a href="http://github.com/fair-workflows/FAIRWorkflowsExtension">
+										          <i class="fas fa-code"></i> Code</a></span>
+										          ,
+															<span data-toggle="tooltip" data-placement="top" title="fairworkflows"><a href="https://github.com/fair-workflows/fairworkflows">
+ 									           <i class="fas fa-code"></i> Code</a></span>,
+															<a href="https://doi.org/10.5281/zenodo.5045448">
+										          <i class="fas fa-database"></i> Data</a></span>
+										          ,
+										          <a href="https://doi.org/10.5281/zenodo.5045675">
+										          <i class="fas fa-database"></i> Data</a></span>
+
+										 </td>
 									</tr>
 									<tr>
 										<td>08:45-09:00</td>
-										<td>#43: Alba Catalina Morales Tirado, Enrico Daga and Enrico Motta. Reasoning on health condition evolution for enhanced detection of vulnerable people in emergency settings</td>
+										<td>#43: Alba Catalina Morales Tirado, Enrico Daga and Enrico Motta. Reasoning on health condition evolution for enhanced detection of vulnerable people in emergency settings
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="CES-HR"><a href="https://github.com/albamoralest/CES-HR">
+															<i class="fas fa-code"></i> Code</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="CES-HR"><a href="https://github.com/albamoralest/CES-HR">
+															<i class="fas fa-database"></i> Data</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>09:00-09:15</td>
-										<td>#47: Ryan Brate, Andrei Nesterov, Valentin Vogelmann, Jacco van Ossenbruggen, Laura Hollink and Marieke van Erp. Capturing Contentiousness: Constructing the Contentious terms in Context Corpus</td>
+										<td>#47: Ryan Brate, Andrei Nesterov, Valentin Vogelmann, Jacco van Ossenbruggen, Laura Hollink and Marieke van Erp. Capturing Contentiousness: Constructing the Contentious terms in Context Corpus
+											<br/>
+										          <span data-toggle="tooltip" data-placement="top" title="ConConCor"><a href="https://github.com/cultural-ai/ConConCor/">
+										          <i class="fas fa-code"></i> Code</a></span>
+										          ,
+										          <span data-toggle="tooltip" data-placement="top" title="ConConCor dataset"><a href="https://github.com/cultural-ai/ConConCor/Dataset">
+										          <i class="fas fa-database"></i> Data</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>09:15-09:30</td>
-										<td>#49: Kaviya Dhanabalachandran, Vanessa Hassouna, Maria M. Hedblom, Michaela Kuempel, Nils Leusmann and Michael Beetz. Cutting Events: Towards Autonomous Plan Adaption by Robotic Agents through Image-Schematic Event Segmentation</td>
+										<td>#49: Kaviya Dhanabalachandran, Vanessa Hassouna, Maria M. Hedblom, Michaela Kuempel, Nils Leusmann and Michael Beetz. Cutting Events: Towards Autonomous Plan Adaption by Robotic Agents through Image-Schematic Event Segmentation
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="Cutting bread ontology"><a href="https://github.com/kaviyachandran/situational_awareness_example/blob/master/owl/situation_awareness_example.owl">
+															Ontology</a></span>
+										</td>
 									</tr>
 									<tr class="slot">
 										<td><b>09:30-10:30</b></td>
@@ -91,15 +133,37 @@
 									</tr>
 									<tr>
 										<td>09:45-10:00</td>
-										<td>#15: Luigi Asprino, Valentina Anita Carriero and Valentina Presutti. Extraction of common conceptual components from multiple ontologies</td>
+										<td>#15: Luigi Asprino, Valentina Anita Carriero and Valentina Presutti. Extraction of common conceptual components from multiple ontologies
+											<br/>
+														<span data-toggle="tooltip" data-placement="top" title="Conceptual Components"><a href="https://github.com/stlab-istc-cnr/conceptual-components/">
+															<i class="fas fa-code"></i> Code</a></span>,
+															<span data-toggle="tooltip" data-placement="top" title="CH and Conference ontologies corpus"><a href="https://github.com/stlab-istc-cnr/conceptual-components/">
+															<i class="fas fa-database"></i> Data</a></span>
+
+
+										</td>
 									</tr>
 									<tr>
 										<td>10:00-10:15</td>
-										<td>#25: Albert Meroño-Peñuela, Romana Pernisch, Christophe Guéret and Stefan Schlobach. Multi-domain and Explainable Prediction of Changes in Web Vocabularies</td>
+										<td>#25: Albert Meroño-Peñuela, Romana Pernisch, Christophe Guéret and Stefan Schlobach. Multi-domain and Explainable Prediction of Changes in Web Vocabularies
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="Concept Drift on the Web"><a href="https://github.com/albertmeronyo/ConceptDrift">
+															<i class="fas fa-code"></i> Code</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="ConceptDrift-data"><a href="https://github.com/albertmeronyo/ConceptDrift-data">
+															<i class="fas fa-database"></i> Data</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>10:15-10:30</td>
-										<td>#46: Bruno Sartini, Aldo Gangemi and Marieke van Erp. Marriage is a Peach and a Chalice: Modelling Cultural Symbolism on the Semantic Web</td>
+										<td>#46: Bruno Sartini, Aldo Gangemi and Marieke van Erp. Marriage is a Peach and a Chalice: Modelling Cultural Symbolism on the Semantic Web
+											<br/>
+															<a href="https://www.w3id.org/simulation/data">
+															<i class="fas fa-database"></i> Data</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="Simulation ontology"><a href="https://www.w3id.org/simulation/ontology/">
+															Ontology</a></span>
+										</td>
 									</tr>
 									<tr class="keynote">
 										<td><b>10:30-11:30</b></td>
@@ -111,7 +175,14 @@
 									</tr>
 									<tr>
 										<td>12:00-12:15</td>
-										<td>#31: Lucie Cadorel, Alicia Blanchi and Andrea Tettamanzi. Geospatial Knowledge in housing advertisements : Capturing and Extracting Spatial Information from Text</td>
+										<td>#31: Lucie Cadorel, Alicia Blanchi and Andrea Tettamanzi. Geospatial Knowledge in housing advertisements : Capturing and Extracting Spatial Information from Text
+											<br/>
+															<a href="https://github.com/lcadorel/GeoInformationRealEstate">
+															<i class="fas fa-code"></i>Code</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="GeoInformationRealEstate"><a href="https://github.com/lcadorel/GeoInformationRealEstate">
+															<i class="fas fa-database"></i> Data</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>12:15-12:30</td>
@@ -119,11 +190,27 @@
 									</tr>
 									<tr>
 										<td>12:30-12:45</td>
-										<td>#51: Nicholas Halliwell, Fabien Gandon and Freddy Lecue. User Scored Evaluation of Non-Unique Explanations for Relational Graph Convolutional Network Link Prediction on Knowledge Graphs</td>
+										<td>#51: Nicholas Halliwell, Fabien Gandon and Freddy Lecue. User Scored Evaluation of Non-Unique Explanations for Relational Graph Convolutional Network Link Prediction on Knowledge Graphs
+											<br/>
+										          <a href="https://github.com/halliwelln/multiple-explanations/">
+										          <i class="fas fa-code"></i>Code</a></span>
+										          ,
+										          <a href="https://github.com/halliwelln/multiple-explanations/">
+										          <i class="fas fa-database"></i>Data</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>12:45-13:00</td>
-										<td>#95: Daniyal Selani and Ilaria Tiddi. Knowledge Extraction from Auto-Encoders on Anomaly Detection Tasks Using Co-activation Graphs</td>
+										<td>#95: Daniyal Selani and Ilaria Tiddi. Knowledge Extraction from Auto-Encoders on Anomaly Detection Tasks Using Co-activation Graphs
+											<br/>
+														<span data-toggle="tooltip" data-placement="top" title="Coactivation_AE_AD"><a href="https://github.com/daniyal9538/coactivation_AE_AD.git">
+														<i class="fas fa-code"></i> Code</a></span>,
+
+															<span data-toggle="tooltip" data-placement="top" title="ECG5000"><a href="http://www.timeseriesclassification.com/description.php?Dataset=ECG5000">
+															<i class="fas fa-database"></i> Data</a></span>
+
+
+										</td>
 									</tr>
 									<tr class="slot">
 										<td><b>13:00-14:00</b></td>
@@ -131,23 +218,57 @@
 									</tr>
 									<tr>
 										<td>13:00-13:15</td>
-										<td>#99: Asep Fajar Firmansyah, Diego Moussallem and Axel-Cyrille Ngonga Ngomo. GATES: Using Graph Attention Network for Entity Summarization</td>
+										<td>#99: Asep Fajar Firmansyah, Diego Moussallem and Axel-Cyrille Ngonga Ngomo. GATES: Using Graph Attention Network for Entity Summarization
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="GATES"><a href="https://github.com/dice-group/GATES">
+															<i class="fas fa-code"></i> Code</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>13:15-13:30</td>
-										<td>#115: Nicholas Klein, Filip Ilievski and Pedro Szekely. Generating Explainable Abstractions for Wikidata Entities</td>
+										<td>#115: Nicholas Klein, Filip Ilievski and Pedro Szekely. Generating Explainable Abstractions for Wikidata Entities
+											<br/>
+						          <span data-toggle="tooltip" data-placement="top" title="Table Linker Pipelines "><a href="https://github.com/nicklein/kgtk/tree/entity_profiling/entity_profiling">
+						          <i class="fas fa-code"></i> Code</a></span>,
+
+						          <span data-toggle="tooltip" data-placement="top" title="Entity profiling"><a href="https://github.com/nicklein/table-linker-pipelines">
+						          <i class="fas fa-code"></i> Code</a></span>,
+
+						          <span data-toggle="tooltip" data-placement="top" title="T2Dv2 and SemTabR4 benchmark tables"><a href="https://drive.google.com/drive/folders/1cwLwzoamRVDKB5oG_Mxj_bdK1FGdzmdd?usp=sharing">
+						          <i class="fas fa-database"></i> Data</a></span>,
+
+						          <span data-toggle="tooltip" data-placement="top" title="Darpa Wikidata"><a href="https://drive.google.com/drive/folders/1cwLwzoamRVDKB5oG_Mxj_bdK1FGdzmdd?usp=sharing">
+						          <i class="fas fa-database"></i> Data</a></span>,
+						          <span data-toggle="tooltip" data-placement="top" title="Re-annotated WordSim353 dataset"><a href="https://drive.google.com/drive/folders/1cwLwzoamRVDKB5oG_Mxj_bdK1FGdzmdd?usp=sharing">
+						          <i class="fas fa-database"></i> Data</a></span>
+					          </td>
 									</tr>
 									<tr>
 										<td>13:30-13:45</td>
-										<td>#100: Russa Biswas, Radina Sofronova, Harald Sack and Mehwish Alam. Cat2Type: Wikipedia Category Embeddings for Entity Typing in Knowledge Graphs</td>
+										<td>#100: Russa Biswas, Radina Sofronova, Harald Sack and Mehwish Alam. Cat2Type: Wikipedia Category Embeddings for Entity Typing in Knowledge Graphs
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="Cat2Type"><a href="https://github.com/russabiswas/Cat2Type">
+															<i class="fas fa-code"></i> Code</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>13:45-13:52</td>
-										<td>#68: Hamada Zahera, Stefan Heindorf and Axel-Cyrille Ngonga Ngomo. ASSET: A Semi-supervised Approach for Entity Typing in Knowledge Graphs</td>
+										<td>#68: Hamada Zahera, Stefan Heindorf and Axel-Cyrille Ngonga Ngomo. ASSET: A Semi-supervised Approach for Entity Typing in Knowledge Graphs
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="ASSET"><a href="https://github.com/dice-group/ASSET">
+															<i class="fas fa-code"></i> Code</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>13:52-13:59</td>
-										<td>#54: Melisachew Wudage Chekol. Tensor Decomposition for Link Prediction in Temporal Knowledge Graphs</td>
+										<td>#54: Melisachew Wudage Chekol. Tensor Decomposition for Link Prediction in Temporal Knowledge Graphs
+											<br/>
+															<a href="https://gitlab.com/jleblay/tokei/-/tree/master/data">
+															<i class="fas fa-database"></i>Data</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="HyTE"><a href="https://github.com/malllabiisc/HyTE">
+															<i class="fas fa-database"></i> Data</a></span>
+										</td>
 									</tr>
 									<tr class="slot">
 										<td><b>14:00-14:30</b></td>
@@ -155,19 +276,42 @@
 									</tr>
 									<tr>
 										<td>14:00-14:07</td>
-										<td>#96: Fabian Kirstein and Manfred Hauswirth. Blockchain for Trustworthy Publication and Integration of Linked Open Data</td>
+										<td>#96: Fabian Kirstein and Manfred Hauswirth. Blockchain for Trustworthy Publication and Integration of Linked Open Data
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="Open Data Blockchain"><a href="https://github.com/odbl/odbl">
+															<i class="fas fa-code"></i> Code</a></span>,
+															<span data-toggle="tooltip" data-placement="top" title="Open Data Blockchain Evaluation tool"><a href="https://github.com/odbl/odbl-evaluation">
+															<i class="fas fa-database"></i> Data</a></span>
+
+
+										</td>
 									</tr>
 									<tr>
 										<td>14:07-14:14</td>
-										<td>#97: Xue Li, Sara Magliacane and Paul Groth. The Challenges of Cross-Document Coreference Resolution for Email</td>
+										<td>#97: Xue Li, Sara Magliacane and Paul Groth. The Challenges of Cross-Document Coreference Resolution for Email
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="Email benchmark corpus"><a href="https://github.com/paragdakle/emailcoref">
+															<i class="fas fa-database"></i> Data</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>14:14-14:21</td>
-										<td>#94: Ismail Harrando and Raphaël Troncy. Discovering Interpretable Topics by Leveraging Common Sense Knowledge</td>
+										<td>#94: Ismail Harrando and Raphaël Troncy. Discovering Interpretable Topics by Leveraging Common Sense Knowledge
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="CSTM"><a href="https://github.com/D2KLab/CSTM">
+															<i class="fas fa-code"></i> Code</a></span>
+															,
+															<a href="https://github.com/D2KLab/CSTM/tree/main/data">
+															<i class="fas fa-database"></i>Data</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>14:21-14:26</td>
-										<td>#42: Sandaru Seneviratne, Sergio Rodríguez Méndez, Xuecheng Zhang, Pouya Omran, Kerry Taylor and Armin Haller. TNNT: The Named Entity Recognition Toolkit</td>
+										<td>#42: Sandaru Seneviratne, Sergio Rodríguez Méndez, Xuecheng Zhang, Pouya Omran, Kerry Taylor and Armin Haller. TNNT: The Named Entity Recognition Toolkit
+											<br/>
+															<a href="https://w3id.org/kgcp/MEL-TNNT">
+															<i class="fas fa-code"></i> Code</a></span>
+										</td>
 									</tr>
 								</tbody>
 							</table>
@@ -192,16 +336,28 @@
 									</tr>
 									<tr>
 										<td>08:07-08:14</td>
-										<td>#114: Viet Bach Nguyen, Vojtěch Svátek, Oscar Corcho and Marek Dudáš. Knowledge Engineering of PhD Stories: A Preliminary Study</td>
+										<td>#114: Viet Bach Nguyen, Vojtěch Svátek, Oscar Corcho and Marek Dudáš. Knowledge Engineering of PhD Stories: A Preliminary Study
+											<br/>
+										          <span data-toggle="tooltip" data-placement="top" title="PhD Odyssey"><a href="https://github.com/nvbach91/phd-odyssey">
+										          <i class="fas fa-code"></i> Code</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>08:14-08:21</td>
-										<td>#60: Doerthe Arndt, Sven Lieber, Raf Buyle, Sander Goossens, David De Block, Ben De Meester and Erik Mannens. Dynamic workflow composition with OSLO-steps: Data re-use and simplification of automated administration</td>
+										<td>#60: Doerthe Arndt, Sven Lieber, Raf Buyle, Sander Goossens, David De Block, Ben De Meester and Erik Mannens. Dynamic workflow composition with OSLO-steps: Data re-use and simplification of automated administration
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="OSLO-STEPS vocabulary"><a href="https://fast.ilabt.imec.be/ns/oslo-steps#">
+															 Ontology</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>08:21-08:26</td>
 										<td>#116: Rui Zhu, Ling Cai, Gengchen Mai, Cogan Shimizu, Colby K. Fisher, Krzysztof Janowicz, Anna Lopez-Carr, Andrew Schroeder, Mark Schildhauer, Yuanyuan Tian, Shirly Stephen and Zilong Liu. Providing Humanitarian Relief Support through
-											Knowledge Graphs</td>
+											Knowledge Graphs
+											<br/>
+															<a href="http://stko-roy.geog.ucsb.edu/">
+															Ontology</a></span>
+										</td>
 									</tr>
 									<tr class="slot">
 										<td><b>08:30-09:30</b></td>
@@ -209,15 +365,48 @@
 									</tr>
 									<tr>
 										<td>08:30-08:45</td>
-										<td>#32: Stijn Schouten, Victor de Boer, Lodewijk Petram and Marieke van Erp. The Wind in Our Sails: Developing a Reusable and Maintainable Dutch Maritime History Knowledge Graph</td>
+										<td>#32: Stijn Schouten, Victor de Boer, Lodewijk Petram and Marieke van Erp. The Wind in Our Sails: Developing a Reusable and Maintainable Dutch Maritime History Knowledge Graph
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="Places"><a href="https://doi.org/10.5281/zenodo.5509814">
+															<i class="fas fa-database"></i> Data</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="VOCOPV"><a href="https://doi.org/10.5281/zenodo.5509820 ">
+															<i class="fas fa-database"></i> Data</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="BGB"><a href="https://doi.org/10.5281/zenodo.5507126">
+															<i class="fas fa-database"></i> Data</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="DAS"><a href="https://doi.org/10.5281/zenodo.5507139">
+															<i class="fas fa-database"></i> Data</a></span>
+															,
+															<a href="https://github.com/stijnschout3n/thewindinoursails/blob/main/maritimehistorycontinued_V1.rdf">
+															 Ontology</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>08:45-09:00</td>
-										<td>#48: Lucas Simonne, Nathalie Pernelle, Fatiha Saïs and Rallou Thomopoulos. Differential Causal Rules Mining in Knowledge Graphs</td>
+										<td>#48: Lucas Simonne, Nathalie Pernelle, Fatiha Saïs and Rallou Thomopoulos. Differential Causal Rules Mining in Knowledge Graphs
+											<br/>
+										          <a href="https://github.com/LucasSimonne/kcap2021">
+										          <i class="fas fa-code"></i> Code</a></span>
+										          ,
+										          <a href="https://github.com/LucasSimonne/kcap2021">
+										          <i class="fas fa-database"></i> Data</a></span>
+										          ,
+										          <a href="https://github.com/LucasSimonne/kcap2021">
+										           Ontology</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>09:00-09:15</td>
-										<td>#50: Sven Hertling and Heiko Paulheim. Order Matters: Matching Multiple Knowledge Graphs</td>
+										<td>#50: Sven Hertling and Heiko Paulheim. Order Matters: Matching Multiple Knowledge Graphs
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="MELT matching framework"><a href="https://github.com/dwslab/melt">
+															<i class="fas fa-code"></i> Code</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="OAEI tracks"><a href="http://oaei.ontologymatching.org/2020/">
+															<i class="fas fa-database"></i> Data</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>09:15-09:30</td>
@@ -229,19 +418,47 @@
 									</tr>
 									<tr>
 										<td>09:30-09:45</td>
-										<td>#22: Markus Schröder, Christian Jilek and Andreas Dengel. Spread2RML: Constructing Knowledge Graphs by Predicting RML Mappings on Messy Spreadsheets</td>
+										<td>#22: Markus Schröder, Christian Jilek and Andreas Dengel. Spread2RML: Constructing Knowledge Graphs by Predicting RML Mappings on Messy Spreadsheets
+											<br/>
+
+															<a href="http://www.dfki.uni-kl.de/~mschroeder/demo/spread2rml/#code">
+															<i class="fas fa-code"></i> Code</a></span>,
+															<a href="http://www.dfki.uni-kl.de/~mschroeder/demo/spread2rml/#code">
+															<i class="fas fa-database"></i> Data</a></span>
+
+										</td>
 									</tr>
 									<tr>
 										<td>09:45-10:00</td>
-										<td>#65: Thomas Delva, Sitt Min Oo, Dylan Van Assche, Sven Lieber and Anastasia Dimou. RML2SHACL: RDF generation taking shape</td>
+										<td>#65: Thomas Delva, Sitt Min Oo, Dylan Van Assche, Sven Lieber and Anastasia Dimou. RML2SHACL: RDF generation taking shape
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="RML2SHACL code"><a href="https://github.com/RMLio/RML2SHACL/tree/kcap21">
+															<i class="fas fa-code"></i> Code</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="Ontology RML2SHACL shapes"><a href="https://github.com/RMLio/RML2SHACL/tree/kcap21/shapes/astrea_test ">
+															<i class="fas fa-database"></i> Data</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="RML test cases RML2SHACL shapes"><a href="https://github.com/RMLio/RML2SHACL/tree/kcap21/shapes">
+															<i class="fas fa-database"></i> Data</a></span>
+
+
+										</td>
 									</tr>
 									<tr>
 										<td>10:00-10:15</td>
-										<td>#104: Adnan Akhter, Muhammad Saleem, Axel-Cyrille Ngonga Ngomo and Alexander Bigerl. Efficient RDF Knowledge Graph Partitioning Using Querying Workload</td>
+										<td>#104: Adnan Akhter, Muhammad Saleem, Axel-Cyrille Ngonga Ngomo and Alexander Bigerl. Efficient RDF Knowledge Graph Partitioning Using Querying Workload
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="Workload-aware-rdf-partitioning"><a href="https://github.com/dice-group/workload-aware-rdf-partitioning">
+															<i class="fas fa-code"></i> Code</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>10:15-10:30</td>
-										<td>#79: Alberto Moya Loustaunau and Aidan Hogan. Predicting SPARQL Query Dynamics</td>
+										<td>#79: Alberto Moya Loustaunau and Aidan Hogan. Predicting SPARQL Query Dynamics
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="sparqldynamics"><a href="https://github.com/amoya87/sparqldynamics/">
+															<i class="fas fa-code"></i> Code</a></span>
+										</td>
 									</tr>
 									<tr class="keynote">
 										<td><b>10:30-11:30</b></td>
@@ -253,19 +470,52 @@
 									</tr>
 									<tr>
 										<td>12:00-12:15</td>
-										<td>#11: Mohamad Yaser Jaradeh, Kuldeep Singh, Markus Stocker and Sören Auer. Triple Classification for Scholarly Knowledge Graph Completion</td>
+										<td>#11: Mohamad Yaser Jaradeh, Kuldeep Singh, Markus Stocker and Sören Auer. Triple Classification for Scholarly Knowledge Graph Completion
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="exBERT"><a href="https://github.com/YaserJaradeh/exBERT">
+															<i class="fas fa-code"></i> Code</a></span>
+															,
+															<a href="https://github.com/YaserJaradeh/exBERT/tree/main/data">
+															<i class="fas fa-database"></i> Data</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>12:15-12:30</td>
-										<td>#64: Cristina-Iulia Bucur, Tobias Kuhn, Davide Ceolin and Jacco van Ossenbruggen. Expressing High-Level Scientific Claims with Formal Semantics</td>
+										<td>#64: Cristina-Iulia Bucur, Tobias Kuhn, Davide Ceolin and Jacco van Ossenbruggen. Expressing High-Level Scientific Claims with Formal Semantics
+											<br/>
+															<a href="https://colab.research.google.com/drive/1HuLPsJnnmuSovo2vF12L7_JnI7jcORmw?usp=sharing">
+															<i class="fas fa-code"></i> Code</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="linkflows_claims_dataset"><a href="https://github.com/LaraHack/linkflows_claims_dataset">
+															<i class="fas fa-database"></i> Data</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="linkflows_formalization_study"><a href="https://github.com/LaraHack/linkflows_formalization_study">
+															<i class="fas fa-database"></i> Data</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>12:30-12:45</td>
-										<td>#82: Michel Wijkstra, Timo Lek, Tobias Kuhn, Kasper Welbers and Mickey Steijaert. Living Literature Reviews</td>
+										<td>#82: Michel Wijkstra, Timo Lek, Tobias Kuhn, Kasper Welbers and Mickey Steijaert. Living Literature Reviews
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="Living Literature Reviews"><a href="https://github.com/ucds-vu/living-reviews/">
+															<i class="fas fa-code"></i> Code</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="Living Literature Reviews"><a href="https://github.com/ucds-vu/living-reviews/">
+															<i class="fas fa-database"></i> Data</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>12:45-13:00</td>
-										<td>#107: Ibrahim Abdelaziz, Julian Dolby, James P McCusker and Kavitha Srinivas. A Toolkit for Generating Code Knowledge Graphs</td>
+										<td>#107: Ibrahim Abdelaziz, Julian Dolby, James P McCusker and Kavitha Srinivas. A Toolkit for Generating Code Knowledge Graphs
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="graph4code"><a href="https://github.com/wala/graph4code">
+															<i class="fas fa-code"></i> Code</a></span>
+															,
+															<span data-toggle="tooltip" data-placement="top" title="graph4code"><a href="https://wala.github.io/graph4code/">
+															<i class="fas fa-database"></i> Data</a></span>
+
+
+										</td>
 									</tr>
 									<tr class="slot">
 										<td>13:00-14:00</td>
@@ -273,7 +523,11 @@
 									</tr>
 									<tr>
 										<td>13:00-13:15</td>
-										<td>#83: Reham Alharbi, Valentina Tamma and Floriana Grasso. Characterising the Gap Between Theory and Practice of Ontology Reuse</td>
+										<td>#83: Reham Alharbi, Valentina Tamma and Floriana Grasso. Characterising the Gap Between Theory and Practice of Ontology Reuse
+											<br/>
+															<span data-toggle="tooltip" data-placement="top" title="The Candidate Measures for Assessing Ontology(s) Reusability"><a href="https://www.allcounted.com/share?view=questions&cid=etfbfn66ab4ja&lang=en_US">
+															 Ontology</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>13:15-13:30</td>
@@ -281,7 +535,11 @@
 									</tr>
 									<tr>
 										<td>13:30-13:45</td>
-										<td>#61: Ariam Rivas Méndez and Maria Esther Vidal. Capturing Knowledge about Drug-Drug Interactions to Enhance Treatment Effectiveness</td>
+										<td>#61: Ariam Rivas Méndez and Maria Esther Vidal. Capturing Knowledge about Drug-Drug Interactions to Enhance Treatment Effectiveness
+											<br/>
+															<a href="https://capturing-knowledge-ddi.herokuapp.com/">
+															<i class="fas fa-code"></i> Demo</a></span>
+										</td>
 									</tr>
 									<tr>
 										<td>13:45-14:00</td>
