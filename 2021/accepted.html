@@ -34,6 +34,12 @@
 		});
 	</script>
 
+	<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
 	<section>
 		<div class="container">
 			<div class="row">
@@ -41,17 +47,21 @@
 				<div class="col-lg-9 mx-auto">
 					<div class="row">
 						<div class="col-lg-12 mx-auto">
-							<h2 class="text-center">Accepted Papers</h2>
-
-							<br/>
-							<p class="text-center"><a  class="btn btn-primary" href="https://dl.acm.org/doi/proceedings/10.1145/3460210">Conference Proceedings</a></p>
-							<br/>
+							<h2>Accepted Papers</h2>
 							<p>
 								<ul>
 
 									<li>Robin Richardson, Remzi Celebi, Sven van der Burg, Djura Smits, Lars Ridder, Michel Dumontier and Tobias Kuhn. User-friendly composition of FAIR workflows in a notebook environment</li>
+										<ul>
+											<li>Code: </li>
+											<li>Data:
+												<a href="link"> <span data-toggle="tooltip" data-placement="top" title="Short description of the dataset. License">Dataset [License]</span></a>
+											</li>
+											<li>Ontology: </li>
+
+										</ul>
 									<li>Alba Catalina Morales Tirado, Enrico Daga and Enrico Motta. Reasoning on health condition evolution for enhanced detection of vulnerable people in emergency settings</li>
-									<li>Ryan Brate, Andrei Nesterov, Valentin Vogelmann, Jacco van Ossenbruggen, Laura Hollink and Marieke van Erp. Capturing Contentiousness: Constructing the Contentious terms in Context Corpus</li>
+									<li>Ryan Brate, Andrei Nestorov, Valentin Vogelmann, Jacco van Ossenbruggen, Laura Hollink and Marieke van Erp. Capturing Contentiousness: Constructing the Contentious terms in Context Corpus</li>
 									<li>Kaviya Dhanabalachandran, Vanessa Hassouna, Maria M. Hedblom, Michaela Kuempel, Nils Leusmann and Michael Beetz. Cutting Events: Towards Autonomous Plan Adaption by Robotic Agents through Image-Schematic Event Segmentation</li>
 									<li>Romana Pernisch, Daniele Dell'Aglio and Abraham Bernstein. Toward Measuring the Resemblance of Embedding Models for Evolving Ontologies</li>
 									<li>Luigi Asprino, Valentina Anita Carriero and Valentina Presutti. Extraction of common conceptual components from multiple ontologies</li>
