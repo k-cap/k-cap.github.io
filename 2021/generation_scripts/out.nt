@@ -389,47 +389,47 @@
 <https://w3id.org/okn/kcap/i/Author_342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
 <https://w3id.org/okn/kcap/i/Author_99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
 <https://w3id.org/okn/kcap/i/Author_170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
-<https://w3id.org/okn/kcap/i/Paper_104> <https://schema.org/title> "Efficient RDF Knowledge Graph Partitioning Using Querying Workload" .
-<https://w3id.org/okn/kcap/i/Paper_99> <https://schema.org/title> "GATES: Using Graph Attention Network for Entity Summarization" .
-<https://w3id.org/okn/kcap/i/Paper_94> <https://schema.org/title> "Discovering Interpretable Topics by Leveraging Common Sense Knowledge" .
-<https://w3id.org/okn/kcap/i/Paper_95> <https://schema.org/title> "Knowledge Extraction from Auto-Encoders on Anomaly Detection Tasks Using Co-activation Graphs" .
-<https://w3id.org/okn/kcap/i/Paper_11> <https://schema.org/title> "Triple Classification for Scholarly Knowledge Graph Completion" .
-<https://w3id.org/okn/kcap/i/Paper_80> <https://schema.org/title> "Time in a Box: Advancing Knowledge Graph Completion with Temporal Scopes" .
-<https://w3id.org/okn/kcap/i/Paper_49> <https://schema.org/title> "Cutting Events: Towards Autonomous Plan Adaption by Robotic Agents through Image-Schematic Event Segmentation" .
-<https://w3id.org/okn/kcap/i/Paper_116> <https://schema.org/title> "Providing Humanitarian Relief Support through Knowledge Graphs" .
-<https://w3id.org/okn/kcap/i/Paper_83> <https://schema.org/title> "Characterising the Gap Between Theory and Practice of Ontology Reuse" .
-<https://w3id.org/okn/kcap/i/Paper_107> <https://schema.org/title> "A Toolkit for Generating Code Knowledge Graphs" .
-<https://w3id.org/okn/kcap/i/Paper_22> <https://schema.org/title> "Spread2RML: Constructing Knowledge Graphs by Predicting RML Mappings on Messy Spreadsheets" .
-<https://w3id.org/okn/kcap/i/Paper_68> <https://schema.org/title> "ASSET: A Semi-supervised Approach for Entity Typing in Knowledge Graphs" .
-<https://w3id.org/okn/kcap/i/Paper_97> <https://schema.org/title> "The Challenges of Cross-Document Coreference Resolution for Email" .
-<https://w3id.org/okn/kcap/i/Paper_60> <https://schema.org/title> "Dynamic workflow composition with OSLO-steps: Data re-use and simplification of automated administration" .
-<https://w3id.org/okn/kcap/i/Paper_50> <https://schema.org/title> "Order Matters: Matching Multiple Knowledge Graphs" .
-<https://w3id.org/okn/kcap/i/Paper_79> <https://schema.org/title> "Predicting SPARQL Query Dynamics" .
-<https://w3id.org/okn/kcap/i/Paper_54> <https://schema.org/title> "Tensor Decomposition for Link Prediction in Temporal Knowledge Graphs" .
-<https://w3id.org/okn/kcap/i/Paper_96> <https://schema.org/title> "Blockchain for Trustworthy Publication and Integration of Linked Open Data" .
-<https://w3id.org/okn/kcap/i/Paper_102> <https://schema.org/title> "CTrO-Editor: A Web-based tool to capture clinical trial data for aggregation and pooling" .
-<https://w3id.org/okn/kcap/i/Paper_47> <https://schema.org/title> "Capturing Contentiousness: Constructing the Contentious terms in Context Corpus" .
-<https://w3id.org/okn/kcap/i/Paper_51> <https://schema.org/title> "User Scored Evaluation of Non-Unique Explanations for Relational Graph Convolutional Network Link Prediction on Knowledge Graphs" .
-<https://w3id.org/okn/kcap/i/Paper_48> <https://schema.org/title> "Differential Causal Rules Mining in Knowledge Graphs" .
-<https://w3id.org/okn/kcap/i/Paper_32> <https://schema.org/title> "The Wind in Our Sails: Developing a Reusable and Maintainable Dutch Maritime History Knowledge Graph" .
-<https://w3id.org/okn/kcap/i/Paper_37> <https://schema.org/title> "KG-ZESHEL: Knowledge Graph-Enhanced Zero-Shot Entity Linking" .
-<https://w3id.org/okn/kcap/i/Paper_29> <https://schema.org/title> "User-friendly composition of FAIR workflows in a notebook environment" .
-<https://w3id.org/okn/kcap/i/Paper_91> <https://schema.org/title> "Capturing Expert Knowledge for Building Enterprise SME Knowledge Graphs" .
-<https://w3id.org/okn/kcap/i/Paper_46> <https://schema.org/title> "Marriage is a Peach and a Chalice: Modelling Cultural Symbolism on the Semantic Web" .
-<https://w3id.org/okn/kcap/i/Paper_42> <https://schema.org/title> "TNNT: The Named Entity Recognition Toolkit" .
-<https://w3id.org/okn/kcap/i/Paper_15> <https://schema.org/title> "Extraction of common conceptual components from multiple ontologies" .
-<https://w3id.org/okn/kcap/i/Paper_61> <https://schema.org/title> "Capturing Knowledge about Drug-Drug Interactions to Enhance Treatment Effectiveness" .
-<https://w3id.org/okn/kcap/i/Paper_65> <https://schema.org/title> "RML2SHACL: RDF generation taking shape" .
-<https://w3id.org/okn/kcap/i/Paper_82> <https://schema.org/title> "Living Literature Reviews" .
-<https://w3id.org/okn/kcap/i/Paper_115> <https://schema.org/title> "Generating Explainable Abstractions for Wikidata Entities" .
-<https://w3id.org/okn/kcap/i/Paper_114> <https://schema.org/title> "Knowledge Engineering of PhD Stories: A Preliminary Study" .
-<https://w3id.org/okn/kcap/i/Paper_25> <https://schema.org/title> "Multi-domain and Explainable Prediction of Changes in Web Vocabularies" .
-<https://w3id.org/okn/kcap/i/Paper_100> <https://schema.org/title> "Cat2Type: Wikipedia Category Embeddings for Entity Typing in Knowledge Graphs" .
-<https://w3id.org/okn/kcap/i/Paper_72> <https://schema.org/title> "Upwardly Abstracted Definition-Based Subontologies" .
-<https://w3id.org/okn/kcap/i/Paper_43> <https://schema.org/title> "Reasoning on health condition evolution for enhanced detection of vulnerable people in emergency settings" .
-<https://w3id.org/okn/kcap/i/Paper_5> <https://schema.org/title> "Toward Measuring the Resemblance of Embedding Models for Evolving Ontologies" .
-<https://w3id.org/okn/kcap/i/Paper_31> <https://schema.org/title> "Geospatial Knowledge in housing advertisements : Capturing and Extracting Spatial Information from Text" .
-<https://w3id.org/okn/kcap/i/Paper_64> <https://schema.org/title> "Expressing High-Level Scientific Claims with Formal Semantics" .
+<https://w3id.org/okn/kcap/i/Paper_104> <https://schema.org/name> "Efficient RDF Knowledge Graph Partitioning Using Querying Workload" .
+<https://w3id.org/okn/kcap/i/Paper_99> <https://schema.org/name> "GATES: Using Graph Attention Network for Entity Summarization" .
+<https://w3id.org/okn/kcap/i/Paper_94> <https://schema.org/name> "Discovering Interpretable Topics by Leveraging Common Sense Knowledge" .
+<https://w3id.org/okn/kcap/i/Paper_95> <https://schema.org/name> "Knowledge Extraction from Auto-Encoders on Anomaly Detection Tasks Using Co-activation Graphs" .
+<https://w3id.org/okn/kcap/i/Paper_11> <https://schema.org/name> "Triple Classification for Scholarly Knowledge Graph Completion" .
+<https://w3id.org/okn/kcap/i/Paper_80> <https://schema.org/name> "Time in a Box: Advancing Knowledge Graph Completion with Temporal Scopes" .
+<https://w3id.org/okn/kcap/i/Paper_49> <https://schema.org/name> "Cutting Events: Towards Autonomous Plan Adaption by Robotic Agents through Image-Schematic Event Segmentation" .
+<https://w3id.org/okn/kcap/i/Paper_116> <https://schema.org/name> "Providing Humanitarian Relief Support through Knowledge Graphs" .
+<https://w3id.org/okn/kcap/i/Paper_83> <https://schema.org/name> "Characterising the Gap Between Theory and Practice of Ontology Reuse" .
+<https://w3id.org/okn/kcap/i/Paper_107> <https://schema.org/name> "A Toolkit for Generating Code Knowledge Graphs" .
+<https://w3id.org/okn/kcap/i/Paper_22> <https://schema.org/name> "Spread2RML: Constructing Knowledge Graphs by Predicting RML Mappings on Messy Spreadsheets" .
+<https://w3id.org/okn/kcap/i/Paper_68> <https://schema.org/name> "ASSET: A Semi-supervised Approach for Entity Typing in Knowledge Graphs" .
+<https://w3id.org/okn/kcap/i/Paper_97> <https://schema.org/name> "The Challenges of Cross-Document Coreference Resolution for Email" .
+<https://w3id.org/okn/kcap/i/Paper_60> <https://schema.org/name> "Dynamic workflow composition with OSLO-steps: Data re-use and simplification of automated administration" .
+<https://w3id.org/okn/kcap/i/Paper_50> <https://schema.org/name> "Order Matters: Matching Multiple Knowledge Graphs" .
+<https://w3id.org/okn/kcap/i/Paper_79> <https://schema.org/name> "Predicting SPARQL Query Dynamics" .
+<https://w3id.org/okn/kcap/i/Paper_54> <https://schema.org/name> "Tensor Decomposition for Link Prediction in Temporal Knowledge Graphs" .
+<https://w3id.org/okn/kcap/i/Paper_96> <https://schema.org/name> "Blockchain for Trustworthy Publication and Integration of Linked Open Data" .
+<https://w3id.org/okn/kcap/i/Paper_102> <https://schema.org/name> "CTrO-Editor: A Web-based tool to capture clinical trial data for aggregation and pooling" .
+<https://w3id.org/okn/kcap/i/Paper_47> <https://schema.org/name> "Capturing Contentiousness: Constructing the Contentious terms in Context Corpus" .
+<https://w3id.org/okn/kcap/i/Paper_51> <https://schema.org/name> "User Scored Evaluation of Non-Unique Explanations for Relational Graph Convolutional Network Link Prediction on Knowledge Graphs" .
+<https://w3id.org/okn/kcap/i/Paper_48> <https://schema.org/name> "Differential Causal Rules Mining in Knowledge Graphs" .
+<https://w3id.org/okn/kcap/i/Paper_32> <https://schema.org/name> "The Wind in Our Sails: Developing a Reusable and Maintainable Dutch Maritime History Knowledge Graph" .
+<https://w3id.org/okn/kcap/i/Paper_37> <https://schema.org/name> "KG-ZESHEL: Knowledge Graph-Enhanced Zero-Shot Entity Linking" .
+<https://w3id.org/okn/kcap/i/Paper_29> <https://schema.org/name> "User-friendly composition of FAIR workflows in a notebook environment" .
+<https://w3id.org/okn/kcap/i/Paper_91> <https://schema.org/name> "Capturing Expert Knowledge for Building Enterprise SME Knowledge Graphs" .
+<https://w3id.org/okn/kcap/i/Paper_46> <https://schema.org/name> "Marriage is a Peach and a Chalice: Modelling Cultural Symbolism on the Semantic Web" .
+<https://w3id.org/okn/kcap/i/Paper_42> <https://schema.org/name> "TNNT: The Named Entity Recognition Toolkit" .
+<https://w3id.org/okn/kcap/i/Paper_15> <https://schema.org/name> "Extraction of common conceptual components from multiple ontologies" .
+<https://w3id.org/okn/kcap/i/Paper_61> <https://schema.org/name> "Capturing Knowledge about Drug-Drug Interactions to Enhance Treatment Effectiveness" .
+<https://w3id.org/okn/kcap/i/Paper_65> <https://schema.org/name> "RML2SHACL: RDF generation taking shape" .
+<https://w3id.org/okn/kcap/i/Paper_82> <https://schema.org/name> "Living Literature Reviews" .
+<https://w3id.org/okn/kcap/i/Paper_115> <https://schema.org/name> "Generating Explainable Abstractions for Wikidata Entities" .
+<https://w3id.org/okn/kcap/i/Paper_114> <https://schema.org/name> "Knowledge Engineering of PhD Stories: A Preliminary Study" .
+<https://w3id.org/okn/kcap/i/Paper_25> <https://schema.org/name> "Multi-domain and Explainable Prediction of Changes in Web Vocabularies" .
+<https://w3id.org/okn/kcap/i/Paper_100> <https://schema.org/name> "Cat2Type: Wikipedia Category Embeddings for Entity Typing in Knowledge Graphs" .
+<https://w3id.org/okn/kcap/i/Paper_72> <https://schema.org/name> "Upwardly Abstracted Definition-Based Subontologies" .
+<https://w3id.org/okn/kcap/i/Paper_43> <https://schema.org/name> "Reasoning on health condition evolution for enhanced detection of vulnerable people in emergency settings" .
+<https://w3id.org/okn/kcap/i/Paper_5> <https://schema.org/name> "Toward Measuring the Resemblance of Embedding Models for Evolving Ontologies" .
+<https://w3id.org/okn/kcap/i/Paper_31> <https://schema.org/name> "Geospatial Knowledge in housing advertisements : Capturing and Extracting Spatial Information from Text" .
+<https://w3id.org/okn/kcap/i/Paper_64> <https://schema.org/name> "Expressing High-Level Scientific Claims with Formal Semantics" .
 <https://w3id.org/okn/kcap/i/SoftwareSourceCode_100_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SoftwareSourceCode> .
 <https://w3id.org/okn/kcap/i/SoftwareSourceCode_61_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SoftwareSourceCode> .
 <https://w3id.org/okn/kcap/i/Dataset_115_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
@@ -483,7 +483,7 @@
 <https://w3id.org/okn/kcap/i/SoftwareSourceCode_11_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SoftwareSourceCode> .
 <https://w3id.org/okn/kcap/i/Dataset_32_5_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
 <https://w3id.org/okn/kcap/i/SoftwareSourceCode_96_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SoftwareSourceCode> .
-<https://w3id.org/okn/kcap/i/Data_83_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Data> .
+<https://w3id.org/okn/kcap/i/Data_83_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
 <https://w3id.org/okn/kcap/i/Ontology_48_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/okn/kcap/i/SoftwareSourceCode_15_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SoftwareSourceCode> .
 <https://w3id.org/okn/kcap/i/Dataset_97_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
