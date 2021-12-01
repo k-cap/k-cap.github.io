@@ -2527,7 +2527,7 @@
     ns1:nationality "Switzerland" ;
     ns1:url "http://www.ifi.unizh.ch/ddis/people/bernstein/"^^xsd:anyURI .
 
-<https://w3id.org/okn/kcap/i/Data_83_5> a ns1:Data ;
+<https://w3id.org/okn/kcap/i/Data_83_5> a ns1:Dataset ;
     ns1:name "The Candidate Measures for Assessing Ontology(s) Reusability" ;
     ns1:url "https://www.allcounted.com/share?view=questions&cid=etfbfn66ab4ja&lang=en_US" .
 
