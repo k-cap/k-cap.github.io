@@ -36,8 +36,10 @@
 		});
 	</script>
 
+
+
 	<script>
-$(document).ready(function(){
+		$(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();
 });
 </script>
@@ -49,294 +51,601 @@ $(document).ready(function(){
 				<div class="col-lg-9 mx-auto">
 					<div class="row">
 						<div class="col-lg-12 mx-auto">
-							<h2>Accepted Papers <span data-toggle="tooltip" data-placement="top" title="Download accepted papers in RDF"><a href="rdf/out.ttl" title="Download accepted papers in RDF"> <img border="0" src="https://www.w3.org/RDF/icons/rdf_w3c.svg"
-	alt="RDF Resource Description Framework Icon" height="40px"/></a></span></h2>
-							<p/>
-								<ul>
-									<li>Robin Richardson, Remzi Celebi, Sven van der Burg, Djura Smits, Lars Ridder, Michel Dumontier and Tobias Kuhn. User-friendly composition of FAIR workflows in a notebook environment
-										<ul>
-										<li><strong>Code</strong>:
-										<ul>
-										<li>
-										        <a href="https://github.com/fair-workflows/nanopub"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="A python library for searching; publishing and modifying nanopublications">Nanopub</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5031807"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache License 2.0.</span>)</span></li>
-										<li>
-										        <a href="http://github.com/fair-workflows/FAIRWorkflowsExtension"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="A Jupyterlab extension for searching for Nanopublished computational steps.">FAIRWorkflowsExtension:</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href=" https://doi.org/10.5281/zenodo.5032301"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">BSD 3-Clause License</span>)</span></li>
-										<li>
-										        <a href="https://github.com/fair-workflows/fairworkflows"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="A python library for constructing; modifying and publishing scientific workflows described using semantic technologies. ">fairworkflows</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5031844"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache License 2.0</span>)</span></li>
-										</ul>
-										</li>
-										<li><strong>Data</strong>:
-										<ul>
-										<li>
-										        <a href="https://doi.org/10.5281/zenodo.5045448"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Evaluation notebook and files for FAIR Workbench user evaluation.">Data</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5045448"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC-BY 4.0</span>)</span></li>
-										<li>
-										        <a href="https://doi.org/10.5281/zenodo.5045675"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Questionnaire used in FAIR Workbench user evaluation">Data</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5045675"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC-BY 4.0</span>)</span></li>
-										</ul>
-										</li>
-										</ul>
-									</li>
+							<h2 class="text-center">Accepted Papers <span data-toggle="tooltip" data-placement="top" title="Download accepted papers in RDF"><a href="rdf/out.ttl" title="Download accepted papers in RDF"> <img border="0" src="https://www.w3.org/RDF/icons/rdf_w3c.svg"
+										  alt="RDF Resource Description Framework Icon" height="40px" /></a></span></h2>
+						</div>
+					</div>
 
-									<li>Alba Catalina Morales Tirado, Enrico Daga and Enrico Motta. Reasoning on health condition evolution for enhanced detection of vulnerable people in emergency settings
+
+					<div class="row">
+						<div class="col-lg-12 mx-auto">
+							<!-- Creates the bootstrap modal where the image will appear -->
+							<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+											<!--h4 class="modal-title" id="myModalLabel">Image preview</h4-->
+										</div>
+										<div class="modal-body">
+											<!--img src="" id="imagepreview" style="width: 400px; height: 264px;"-->
+											<img src="" id="imagepreview" class="img-fluid" />
+										</div>
+										<div class="modal-footer">
+											<span>Credits: <a href="https://www.whiteboardgirl.com/">WHITEBOARD-GIRL</a></span>
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/29.jpg" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text">#29: Robin Richardson, Remzi Celebi, Sven van der Burg, Djura Smits, Lars Ridder, Michel Dumontier and Tobias Kuhn. User-friendly composition of FAIR workflows in a notebook environment
 										<ul>
+											<li><strong>Code</strong>:
+												<ul>
+													<li>
+														<a href="https://github.com/fair-workflows/nanopub"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="A python library for searching; publishing and modifying nanopublications">Nanopub</a>
+														<span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5031807"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip"
+														  data-placement="top" title="License">Apache License 2.0.</span>)</span></li>
+													<li>
+														<a href="http://github.com/fair-workflows/FAIRWorkflowsExtension"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="A Jupyterlab extension for searching for Nanopublished computational steps.">FAIRWorkflowsExtension:</a>
+														<span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href=" https://doi.org/10.5281/zenodo.5032301"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip"
+														  data-placement="top" title="License">BSD 3-Clause License</span>)</span></li>
+													<li>
+														<a href="https://github.com/fair-workflows/fairworkflows"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="A python library for constructing; modifying and publishing scientific workflows described using semantic technologies. ">fairworkflows</a>
+														<span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5031844"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip"
+														  data-placement="top" title="License">Apache License 2.0</span>)</span></li>
+												</ul>
+											</li>
+											<li><strong>Data</strong>:
+												<ul>
+													<li>
+														<a href="https://doi.org/10.5281/zenodo.5045448"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Evaluation notebook and files for FAIR Workbench user evaluation.">Data</a> <span
+														  data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5045448"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip"
+														  data-placement="top" title="License">CC-BY 4.0</span>)</span></li>
+													<li>
+														<a href="https://doi.org/10.5281/zenodo.5045675"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Questionnaire used in FAIR Workbench user evaluation">Data</a> <span data-toggle="tooltip"
+														  data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5045675"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC-BY
+															4.0</span>)</span></li>
+												</ul>
+									</p>
+
+								</div>
+							</div>
+						</div>
+
+
+
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/43.jpg" alt="Card image cap">
+								<div class="card-body">
+
+									#43: Alba Catalina Morales Tirado, Enrico Daga and Enrico Motta. Reasoning on health condition evolution for enhanced detection of vulnerable people in emergency settings
+									<ul>
 										<li><strong>Code</strong>:
-										        <a href="https://github.com/albamoralest/CES-HR"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Condition Evolution Statement - Reasoning on Health Condition Evolution">CES-HR</a></span></li>
+											<a href="https://github.com/albamoralest/CES-HR"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Condition Evolution Statement - Reasoning on Health Condition Evolution">CES-HR</a></span></li>
 										<li><strong>Data</strong>:
-										        <a href="https://github.com/albamoralest/CES-HR"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">CES-HR</a></span></li>
-										</ul>
-									</li>
-									<li>Ryan Brate, Andrei Nesterov, Valentin Vogelmann, Jacco van Ossenbruggen, Laura Hollink and Marieke van Erp. Capturing Contentiousness: Constructing the Contentious terms in Context Corpus
+											<a href="https://github.com/albamoralest/CES-HR"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">CES-HR</a></span></li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/47.jpg" alt="Card image cap">
+								<div class="card-body">
+									#47: Ryan Brate, Andrei Nesterov, Valentin Vogelmann, Jacco van Ossenbruggen, Laura Hollink and Marieke van Erp. Capturing Contentiousness: Constructing the Contentious terms in Context Corpus
 										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://github.com/cultural-ai/ConConCor/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">ConConCor</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top"
+												  title="License">Apache 2.0</span>)</span></li>
+											<li><strong>Data</strong>:
+												<a href="https://github.com/cultural-ai/ConConCor/Dataset"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">ConConCor dataset</a> (<span class="badge badge-primary" data-toggle="tooltip"
+												  data-placement="top" title="License">CC BY 2.0</span>)</span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/49.jpg" alt="Card image cap">
+								<div class="card-body">
+									#49: Kaviya Dhanabalachandran, Vanessa Hassouna, Maria M. Hedblom, Michaela Kuempel, Nils Leusmann and Michael Beetz. Cutting Events: Towards Autonomous Plan Adaption by Robotic Agents through Image-Schematic Event Segmentation
+										<ul>
+											<li><strong>Ontology</strong>:
+												<a href="https://github.com/kaviyachandran/situational_awareness_example/blob/master/owl/situation_awareness_example.owl"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Cutting bread
+														ontology</a></span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+
+					<div class="row">
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/5.jpg" alt="Card image cap">
+								<div class="card-body">
+									#5: Romana Pernisch, Daniele Dell'Aglio and Abraham Bernstein. Toward Measuring the Resemblance of Embedding Models for Evolving Ontologies
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/15.jpg" alt="Card image cap">
+								<div class="card-body">
+									#15: Luigi Asprino, Valentina Anita Carriero and Valentina Presutti. Extraction of common conceptual components from multiple ontologies
+										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://github.com/stlab-istc-cnr/conceptual-components/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="This repository contains code; experiment and evaluation results; and resources related to the extraction of conceptual components and observed ontology design patterns from corpora of ontologies. ">Conceptual
+														Components</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
+											<li><strong>Data</strong>:
+												<a href="https://github.com/stlab-istc-cnr/conceptual-components/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">CH and Conference ontologies corpus</a> (<span class="badge badge-primary"
+												  data-toggle="tooltip" data-placement="top" title="License">CC-BY 4.0</span>)</span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+					<div class="row">
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/25.jpg" alt="Card image cap">
+								<div class="card-body">
+									#25: Albert Meroño-Peñuela, Romana Pernisch, Christophe Guéret and Stefan Schlobach. Multi-domain and Explainable Prediction of Changes in Web Vocabularies
+										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://github.com/albertmeronyo/ConceptDrift"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Experiments for concept drift in the Semantic Web ">Concept Drift on the Web</a></span></li>
+											<li><strong>Data</strong>:
+												<a href="https://github.com/albertmeronyo/ConceptDrift-data"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Datasets for the concept drift experiments ">ConceptDrift-data</a></span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/46.jpg" alt="Card image cap">
+								<div class="card-body">
+									#46: Bruno Sartini, Aldo Gangemi and Marieke van Erp. Marriage is a Peach and a Chalice: Modelling Cultural Symbolism on the Semantic Web
+										<ul>
+											<li><strong>Data</strong>:
+												<a href="https://www.w3id.org/simulation/data"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="HyperReal Knowledge Graph">Data</a> (<span class="badge badge-primary" data-toggle="tooltip"
+												  data-placement="top" title="License">CC BY 4.0</span>)</span></li>
+											<li><strong>Ontology</strong>:
+												<a href="https://www.w3id.org/simulation/ontology/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Simulation ontology</a> (<span class="badge badge-primary" data-toggle="tooltip"
+												  data-placement="top" title="License">CC BY 4.0</span>)</span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/31.jpg" alt="Card image cap">
+								<div class="card-body">
+									#31: Lucie Cadorel, Alicia Blanchi and Andrea Tettamanzi. Geospatial Knowledge in housing advertisements : Capturing and Extracting Spatial Information from Text
+										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://github.com/lcadorel/GeoInformationRealEstate"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Named Entity Recognition and Relationship Extraction from housing advertisements ">Code</a></span></li>
+											<li><strong>Data</strong>:
+												<a href="https://github.com/lcadorel/GeoInformationRealEstate"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Named Entity Recognition and Relationship Extraction from housing advertisements ">GeoInformationRealEstate</a></span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/37.jpg" alt="Card image cap">
+								<div class="card-body">
+									#37: Petar Ristoski, Zhizhong Lin and Qunzhi Zhou. KG-ZESHEL: Knowledge Graph-Enhanced Zero-Shot Entity Linking
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+					<div class="row">
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/51.jpg" alt="Card image cap">
+								<div class="card-body">
+									#51: Nicholas Halliwell, Fabien Gandon and Freddy Lecue. User Scored Evaluation of Non-Unique Explanations for Relational Graph Convolutional Network Link Prediction on Knowledge Graphs
+										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://github.com/halliwelln/multiple-explanations/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="User Scored Evaluation of Non-Unique Explanations for Relational Graph Convolutional Network Link Prediction on Knowledge Graphs">Code</a></span></li>
+											<li><strong>Data</strong>:
+												<a href="https://github.com/halliwelln/multiple-explanations/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="User Scored Evaluation of Non-Unique Explanations for Relational Graph Convolutional Network Link Prediction on Knowledge Graphs">Data</a></span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/95.jpg" alt="Card image cap">
+								<div class="card-body">
+									#95: Daniyal Selani and Ilaria Tiddi. Knowledge Extraction from Auto-Encoders on Anomaly Detection Tasks Using Co-activation Graphs
+										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://github.com/daniyal9538/coactivation_AE_AD.git"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Coactivation_AE_AD</a> (<span class="badge badge-primary" data-toggle="tooltip"
+												  data-placement="top" title="License">CC BY 4.0</span>)</span></li>
+											<li><strong>Data</strong>:
+												<a href="http://www.timeseriesclassification.com/description.php?Dataset=ECG5000"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">ECG5000</a></span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+					<div class="row">
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/99.jpg" alt="Card image cap">
+								<div class="card-body">
+									#99: Asep Fajar Firmansyah, Diego Moussallem and Axel-Cyrille Ngonga Ngomo. GATES: Using Graph Attention Network for Entity Summarization
+										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://github.com/dice-group/GATES"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Graph Attention Networks for Entity Summarization is the model that applies deep learning on graphs on entity summarization tasks. ">GATES</a>
+												(<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">AGPL-3.0 License </span>)</span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/115.jpg" alt="Card image cap">
+								<div class="card-body">
+
+									#115: Nicholas Klein, Filip Ilievski and Pedro Szekely. Generating Explainable Abstractions for Wikidata Entities
+										<ul>
+											<li><strong>Code</strong>:
+												<ul>
+													<li>
+														<a href="https://github.com/nicklein/kgtk/tree/entity_profiling/entity_profiling"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Table Linker Pipelines </a> (<span class="badge badge-primary"
+														  data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
+													<li>
+														<a href="https://github.com/nicklein/table-linker-pipelines"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Entity profiling</a> (<span class="badge badge-primary" data-toggle="tooltip"
+														  data-placement="top" title="License">MIT</span>)</span></li>
+												</ul>
+											</li>
+											<li><strong>Data</strong>:
+												<ul>
+													<li>
+														<a href="https://drive.google.com/drive/folders/1cwLwzoamRVDKB5oG_Mxj_bdK1FGdzmdd?usp=sharing"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">T2Dv2 and SemTabR4 benchmark tables</a></span></li>
+													<li>
+														<a href="https://drive.google.com/drive/folders/1cwLwzoamRVDKB5oG_Mxj_bdK1FGdzmdd?usp=sharing"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="a subset of Wikidata that omits entities that are of class within a small set of the most populous classes">Darpa
+																Wikidata</a></span></li>
+													<li>
+														<a href="https://drive.google.com/drive/folders/1cwLwzoamRVDKB5oG_Mxj_bdK1FGdzmdd?usp=sharing"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Re-annotated WordSim353 dataset</a></span></li>
+												</ul>
+											</li>
+										</ul>
+
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/100.jpg" alt="Card image cap">
+								<div class="card-body">
+									#100: Russa Biswas, Radina Sofronova, Harald Sack and Mehwish Alam. Cat2Type: Wikipedia Category Embeddings for Entity Typing in Knowledge Graphs
+										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://github.com/russabiswas/Cat2Type"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Cat2Type</a></span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/68.jpg" alt="Card image cap">
+								<div class="card-body">
+									#68: Hamada Zahera, Stefan Heindorf and Axel-Cyrille Ngonga Ngomo. ASSET: A Semi-supervised Approach for Entity Typing in Knowledge Graphs
+										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://github.com/dice-group/ASSET"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="A Semi-supervised Approach for Entity Typing in Knowledge Graphs">ASSET</a> (<span class="badge badge-primary"
+												  data-toggle="tooltip" data-placement="top" title="License">AGPL-3.0 License </span>)</span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/54.jpg" alt="Card image cap">
+								<div class="card-body">
+
+									#54: Melisachew Wudage Chekol. Tensor Decomposition for Link Prediction in Temporal Knowledge Graphs
+										<ul>
+											<li><strong>Data</strong>:
+												<ul>
+													<li>
+														<a href="https://gitlab.com/jleblay/tokei/-/tree/master/data"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Data</a></span></li>
+													<li>
+														<a href="https://github.com/malllabiisc/HyTE"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="EMNLP 2018: HyTE: Hyperplane-based Temporally aware Knowledge Graph Embedding ">HyTE</a> (<span
+														  class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
+												</ul>
+											</li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/94.jpg" alt="Card image cap">
+								<div class="card-body">
+									#94: Ismail Harrando and Raphaël Troncy. Discovering Interpretable Topics by Leveraging Common Sense Knowledge
+										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://github.com/D2KLab/CSTM"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Common-sense Topic Modeling">CSTM</a> (<span class="badge badge-primary" data-toggle="tooltip"
+												  data-placement="top" title="License">Apache 2.0</span>)</span></li>
+											<li><strong>Data</strong>:
+												<a href="https://github.com/D2KLab/CSTM/tree/main/data"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Data</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top"
+												  title="License">Apache 2.0</span>)</span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/96.jpg" alt="Card image cap">
+								<div class="card-body">
+									#96: Fabian Kirstein and Manfred Hauswirth. Blockchain for Trustworthy Publication and Integration of Linked Open Data
+										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://github.com/odbl/odbl"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Open Data Blockchain</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top"
+												  title="License">Apache 2.0</span>)</span></li>
+											<li><strong>Data</strong>:
+												<a href="https://github.com/odbl/odbl-evaluation"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Open Data Blockchain Evaluation tool</a> (<span class="badge badge-primary" data-toggle="tooltip"
+												  data-placement="top" title="License">Apache 2.0</span>)</span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/97.jpg" alt="Card image cap">
+								<div class="card-body">
+									#97: Xue Li, Sara Magliacane and Paul Groth. The Challenges of Cross-Document Coreference Resolution for Email
+										<ul>
+											<li><strong>Data</strong>:
+												<a href="https://github.com/paragdakle/emailcoref"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Email benchmark corpus</a> (<span class="badge badge-primary" data-toggle="tooltip"
+												  data-placement="top" title="License">Apache 2.0</span>)</span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="col-lg-6 mx-auto">
+							<div class="card">
+								<img class="card-img-top" src="img/illustrations/42.jpg" alt="Card image cap">
+								<div class="card-body">
+									#42: Sandaru Seneviratne, Sergio Rodríguez Méndez, Xuecheng Zhang, Pouya Omran, Kerry Taylor and Armin Haller. TNNT: The Named Entity Recognition Toolkit
+										<ul>
+											<li><strong>Code</strong>:
+												<a href="https://w3id.org/kgcp/MEL-TNNT"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Code</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
+										</ul>
+
+								</div>
+							</div>
+						</div>
+
+
+
+				</div>
+
+					<div class="row">
+
+						<div class="col-lg-12 mx-auto">
+							<p>Illustrations are added after the paper presentation</p>
+							<ul>
+
+
+
+								<li>Olivia Sanchez-Graillet, Arne Kramer-Sunderbrink and Philipp Cimiano. CTrO-Editor: A Web-based tool to capture clinical trial data for aggregation and pooling</li>
+								<li>Viet Bach Nguyen, Vojtěch Svátek, Oscar Corcho and Marek Dudáš. Knowledge Engineering of PhD Stories: A Preliminary Study
+									<ul>
 										<li><strong>Code</strong>:
-										        <a href="https://github.com/cultural-ai/ConConCor/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">ConConCor</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
-										<li><strong>Data</strong>:
-										        <a href="https://github.com/cultural-ai/ConConCor/Dataset"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">ConConCor dataset</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY 2.0</span>)</span></li>
-										</ul>
-									</li>
-									<li>Kaviya Dhanabalachandran, Vanessa Hassouna, Maria M. Hedblom, Michaela Kuempel, Nils Leusmann and Michael Beetz. Cutting Events: Towards Autonomous Plan Adaption by Robotic Agents through Image-Schematic Event Segmentation
-										<ul>
+											<a href="https://github.com/nvbach91/phd-odyssey"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">PhD Odyssey</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top"
+											  title="License">MIT</span>)</span></li>
+									</ul>
+								</li>
+								<li>Doerthe Arndt, Sven Lieber, Raf Buyle, Sander Goossens, David De Block, Ben De Meester and Erik Mannens. Dynamic workflow composition with OSLO-steps: Data re-use and simplification of automated administration
+									<ul>
 										<li><strong>Ontology</strong>:
-										        <a href="https://github.com/kaviyachandran/situational_awareness_example/blob/master/owl/situation_awareness_example.owl"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Cutting bread ontology</a></span></li>
-										</ul>
-									</li>
-									<li>Romana Pernisch, Daniele Dell'Aglio and Abraham Bernstein. Toward Measuring the Resemblance of Embedding Models for Evolving Ontologies</li>
-									<li>Luigi Asprino, Valentina Anita Carriero and Valentina Presutti. Extraction of common conceptual components from multiple ontologies
-										<ul>
+											<a href="https://fast.ilabt.imec.be/ns/oslo-steps#"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">OSLO-STEPS vocabulary</a> (<span class="badge badge-primary" data-toggle="tooltip"
+											  data-placement="top" title="License">CC BY 4.0</span>)</span></li>
+									</ul>
+								</li>
+								<li>Rui Zhu, Ling Cai, Gengchen Mai, Cogan Shimizu, Colby K. Fisher, Krzysztof Janowicz, Anna Lopez-Carr, Andrew Schroeder, Mark Schildhauer, Yuanyuan Tian, Shirly Stephen and Zilong Liu. Providing Humanitarian Relief Support through
+									Knowledge Graphs
+									<ul>
 										<li><strong>Code</strong>:
-										        <a href="https://github.com/stlab-istc-cnr/conceptual-components/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="This repository contains code; experiment and evaluation results; and resources related to the extraction of conceptual components and observed ontology design patterns from corpora of ontologies. ">Conceptual Components</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
+											<a href="http://stko-roy.geog.ucsb.edu/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Code</a></span></li>
+									</ul>
+								</li>
+								<li>Stijn Schouten, Victor de Boer, Lodewijk Petram and Marieke van Erp. The Wind in Our Sails: Developing a Reusable and Maintainable Dutch Maritime History Knowledge Graph
+									<ul>
 										<li><strong>Data</strong>:
-										        <a href="https://github.com/stlab-istc-cnr/conceptual-components/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">CH and Conference ontologies corpus</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC-BY 4.0</span>)</span></li>
-										</ul>
-									</li>
-									<li>Albert Meroño-Peñuela, Romana Pernisch, Christophe Guéret and Stefan Schlobach. Multi-domain and Explainable Prediction of Changes in Web Vocabularies
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://github.com/albertmeronyo/ConceptDrift"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Experiments for concept drift in the Semantic Web ">Concept Drift on the Web</a></span></li>
-										<li><strong>Data</strong>:
-										        <a href="https://github.com/albertmeronyo/ConceptDrift-data"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Datasets for the concept drift experiments ">ConceptDrift-data</a></span></li>
-										</ul>
-									</li>
-									<li>Bruno Sartini, Aldo Gangemi and Marieke van Erp. Marriage is a Peach and a Chalice: Modelling Cultural Symbolism on the Semantic Web
-										<ul>
-										<li><strong>Data</strong>:
-										        <a href="https://www.w3id.org/simulation/data"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="HyperReal Knowledge Graph">Data</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY 4.0</span>)</span></li>
-										<li><strong>Ontology</strong>:
-										        <a href="https://www.w3id.org/simulation/ontology/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Simulation ontology</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY 4.0</span>)</span></li>
-										</ul>
-									</li>
-									<li>Lucie Cadorel, Alicia Blanchi and Andrea Tettamanzi. Geospatial Knowledge in housing advertisements : Capturing and Extracting Spatial Information from Text
-										<ul>
-										<li><strong>Code</strong>:
-														<a href="https://github.com/lcadorel/GeoInformationRealEstate"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Named Entity Recognition and Relationship Extraction from housing advertisements ">Code</a></span></li>
-										<li><strong>Data</strong>:
-														<a href="https://github.com/lcadorel/GeoInformationRealEstate"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Named Entity Recognition and Relationship Extraction from housing advertisements ">GeoInformationRealEstate</a></span></li>
-										</ul>
-									</li>
-									<li>Petar Ristoski, Zhizhong Lin and Qunzhi Zhou. KG-ZESHEL: Knowledge Graph-Enhanced Zero-Shot Entity Linking</li>
-									<li>Nicholas Halliwell, Fabien Gandon and Freddy Lecue. User Scored Evaluation of Non-Unique Explanations for Relational Graph Convolutional Network Link Prediction on Knowledge Graphs
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://github.com/halliwelln/multiple-explanations/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="User Scored Evaluation of Non-Unique Explanations for Relational Graph Convolutional Network Link Prediction on Knowledge Graphs">Code</a></span></li>
-										<li><strong>Data</strong>:
-										        <a href="https://github.com/halliwelln/multiple-explanations/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="User Scored Evaluation of Non-Unique Explanations for Relational Graph Convolutional Network Link Prediction on Knowledge Graphs">Data</a></span></li>
-										</ul>
-									</li>
-									<li>Daniyal Selani and Ilaria Tiddi. Knowledge Extraction from Auto-Encoders on Anomaly Detection Tasks Using Co-activation Graphs
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://github.com/daniyal9538/coactivation_AE_AD.git"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Coactivation_AE_AD</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY 4.0</span>)</span></li>
-										<li><strong>Data</strong>:
-										        <a href="http://www.timeseriesclassification.com/description.php?Dataset=ECG5000"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">ECG5000</a></span></li>
-										</ul>
-									</li>
-									<li>Asep Fajar Firmansyah, Diego Moussallem and Axel-Cyrille Ngonga Ngomo. GATES: Using Graph Attention Network for Entity Summarization
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://github.com/dice-group/GATES"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Graph Attention Networks for Entity Summarization is the model that applies deep learning on graphs on entity summarization tasks. ">GATES</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">AGPL-3.0 License </span>)</span></li>
-										</ul>
-									</li>
-									<li>Nicholas Klein, Filip Ilievski and Pedro Szekely. Generating Explainable Abstractions for Wikidata Entities
-										<ul>
-										<li><strong>Code</strong>:
-										<ul>
-										<li>
-										        <a href="https://github.com/nicklein/kgtk/tree/entity_profiling/entity_profiling"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Table Linker Pipelines </a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
-										<li>
-										        <a href="https://github.com/nicklein/table-linker-pipelines"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Entity profiling</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
-										</ul>
-										</li>
-										<li><strong>Data</strong>:
-										<ul>
-										<li>
-										        <a href="https://drive.google.com/drive/folders/1cwLwzoamRVDKB5oG_Mxj_bdK1FGdzmdd?usp=sharing"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">T2Dv2 and SemTabR4 benchmark tables</a></span></li>
-										<li>
-										        <a href="https://drive.google.com/drive/folders/1cwLwzoamRVDKB5oG_Mxj_bdK1FGdzmdd?usp=sharing"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="a subset of Wikidata that omits entities that are of class within a small set of the most populous classes">Darpa Wikidata</a></span></li>
-										<li>
-										        <a href="https://drive.google.com/drive/folders/1cwLwzoamRVDKB5oG_Mxj_bdK1FGdzmdd?usp=sharing"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Re-annotated WordSim353 dataset</a></span></li>
-										</ul>
-										</li>
-										</ul>
-									</li>
-									<li>Russa Biswas, Radina Sofronova, Harald Sack and Mehwish Alam. Cat2Type: Wikipedia Category Embeddings for Entity Typing in Knowledge Graphs
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://github.com/russabiswas/Cat2Type"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Cat2Type</a></span></li>
-										</ul>
-									</li>
-									<li>Hamada Zahera, Stefan Heindorf and Axel-Cyrille Ngonga Ngomo. ASSET: A Semi-supervised Approach for Entity Typing in Knowledge Graphs
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://github.com/dice-group/ASSET"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="A Semi-supervised Approach for Entity Typing in Knowledge Graphs">ASSET</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">AGPL-3.0 License </span>)</span></li>
-										</ul>
-									</li>
-									<li>Melisachew Wudage Chekol. Tensor Decomposition for Link Prediction in Temporal Knowledge Graphs
-										<ul>
-										<li><strong>Data</strong>:
-										<ul>
-										<li>
-										        <a href="https://gitlab.com/jleblay/tokei/-/tree/master/data"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Data</a></span></li>
-										<li>
-										        <a href="https://github.com/malllabiisc/HyTE"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="EMNLP 2018: HyTE: Hyperplane-based Temporally aware Knowledge Graph Embedding ">HyTE</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
-										</ul>
-										</li>
-										</ul>
-									</li>
-									<li>Fabian Kirstein and Manfred Hauswirth. Blockchain for Trustworthy Publication and Integration of Linked Open Data
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://github.com/odbl/odbl"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Open Data Blockchain</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
-										<li><strong>Data</strong>:
-										        <a href="https://github.com/odbl/odbl-evaluation"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Open Data Blockchain Evaluation tool</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
-										</ul>
-									</li>
-									<li>Xue Li, Sara Magliacane and Paul Groth. The Challenges of Cross-Document Coreference Resolution for Email
-										<ul>
-										<li><strong>Data</strong>:
-										        <a href="https://github.com/paragdakle/emailcoref"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Email benchmark corpus</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
-										</ul>
-									</li>
-									<li>Ismail Harrando and Raphaël Troncy. Discovering Interpretable Topics by Leveraging Common Sense Knowledge
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://github.com/D2KLab/CSTM"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Common-sense Topic Modeling">CSTM</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
-										<li><strong>Data</strong>:
-										        <a href="https://github.com/D2KLab/CSTM/tree/main/data"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Data</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
-										</ul>
-									</li>
-									<li>Sandaru Seneviratne, Sergio Rodríguez Méndez, Xuecheng Zhang, Pouya Omran, Kerry Taylor and Armin Haller. TNNT: The Named Entity Recognition Toolkit
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://w3id.org/kgcp/MEL-TNNT"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Code</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
-										</ul>
-									</li>
-									<li>Olivia Sanchez-Graillet, Arne Kramer-Sunderbrink and Philipp Cimiano. CTrO-Editor: A Web-based tool to capture clinical trial data for aggregation and pooling</li>
-									<li>Viet Bach Nguyen, Vojtěch Svátek, Oscar Corcho and Marek Dudáš. Knowledge Engineering of PhD Stories: A Preliminary Study
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://github.com/nvbach91/phd-odyssey"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">PhD Odyssey</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
-										</ul>
-									</li>
-									<li>Doerthe Arndt, Sven Lieber, Raf Buyle, Sander Goossens, David De Block, Ben De Meester and Erik Mannens. Dynamic workflow composition with OSLO-steps: Data re-use and simplification of automated administration
-										<ul>
-										<li><strong>Ontology</strong>:
-										        <a href="https://fast.ilabt.imec.be/ns/oslo-steps#"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">OSLO-STEPS vocabulary</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY 4.0</span>)</span></li>
-										</ul>
-									</li>
-									<li>Rui Zhu, Ling Cai, Gengchen Mai, Cogan Shimizu, Colby K. Fisher, Krzysztof Janowicz, Anna Lopez-Carr, Andrew Schroeder, Mark Schildhauer, Yuanyuan Tian, Shirly Stephen and Zilong Liu. Providing Humanitarian Relief Support through
-										Knowledge Graphs
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="http://stko-roy.geog.ucsb.edu/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Code</a></span></li>
-										</ul>
-									</li>
-									<li>Stijn Schouten, Victor de Boer, Lodewijk Petram and Marieke van Erp. The Wind in Our Sails: Developing a Reusable and Maintainable Dutch Maritime History Knowledge Graph
-										<ul>
-										<li><strong>Data</strong>:
-										<ul>
-										<li>
-										        <a href="https://doi.org/10.5281/zenodo.5509814"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Places</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5509814"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY-NC-SA 4.0</span>)</span></li>
-										<li>
-										        <a href="https://doi.org/10.5281/zenodo.5509820 "><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">VOCOPV</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5509820 "><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY-NC-SA 4.0</span>)</span></li>
-										<li>
-										        <a href="https://doi.org/10.5281/zenodo.5507126"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">BGB</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5507126"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY-NC-SA 4.0</span>)</span></li>
-										<li>
-										        <a href="https://doi.org/10.5281/zenodo.5507139"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">DAS</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a href="https://doi.org/10.5281/zenodo.5507139"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY-NC-SA 4.0</span>)</span></li>
-										</ul>
+											<ul>
+												<li>
+													<a href="https://doi.org/10.5281/zenodo.5509814"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Places</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a
+														  href="https://doi.org/10.5281/zenodo.5509814"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY-NC-SA 4.0</span>)</span></li>
+												<li>
+													<a href="https://doi.org/10.5281/zenodo.5509820 "><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">VOCOPV</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a
+														  href="https://doi.org/10.5281/zenodo.5509820 "><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY-NC-SA 4.0</span>)</span></li>
+												<li>
+													<a href="https://doi.org/10.5281/zenodo.5507126"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">BGB</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a
+														  href="https://doi.org/10.5281/zenodo.5507126"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY-NC-SA 4.0</span>)</span></li>
+												<li>
+													<a href="https://doi.org/10.5281/zenodo.5507139"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">DAS</a> <span data-toggle="tooltip" data-placement="top" title="Digital Object Identifier"><a
+														  href="https://doi.org/10.5281/zenodo.5507139"><img src="img/doi.png" width="20"></a></span> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC BY-NC-SA 4.0</span>)</span></li>
+											</ul>
 										</li>
 										<li><strong>Ontology</strong>:
-										        <a href="https://github.com/stijnschout3n/thewindinoursails/blob/main/maritimehistorycontinued_V1.rdf"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Ontology</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
-										</ul>
-									</li>
-									<li>Lucas Simonne, Nathalie Pernelle, Fatiha Saïs and Rallou Thomopoulos. Differential Causal Rules Mining in Knowledge Graphs
-										<ul>
+											<a href="https://github.com/stijnschout3n/thewindinoursails/blob/main/maritimehistorycontinued_V1.rdf"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Ontology</a> (<span class="badge badge-primary"
+											  data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
+									</ul>
+								</li>
+								<li>Lucas Simonne, Nathalie Pernelle, Fatiha Saïs and Rallou Thomopoulos. Differential Causal Rules Mining in Knowledge Graphs
+									<ul>
 										<li><strong>Code</strong>:
-														<a href="https://github.com/LucasSimonne/kcap2021"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Code</a></span></li>
+											<a href="https://github.com/LucasSimonne/kcap2021"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Code</a></span></li>
 										<li><strong>Data</strong>:
-														<a href="https://github.com/LucasSimonne/kcap2021"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Vitamin dataset">Data</a></span></li>
+											<a href="https://github.com/LucasSimonne/kcap2021"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Vitamin dataset">Data</a></span></li>
 										<li><strong>Ontology</strong>:
-														<a href="https://github.com/LucasSimonne/kcap2021"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Ontology</a></span></li>
-										</ul>
-									</li>
-									<li>Sven Hertling and Heiko Paulheim. Order Matters: Matching Multiple Knowledge Graphs
-										<ul>
+											<a href="https://github.com/LucasSimonne/kcap2021"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Ontology</a></span></li>
+									</ul>
+								</li>
+								<li>Sven Hertling and Heiko Paulheim. Order Matters: Matching Multiple Knowledge Graphs
+									<ul>
 										<li><strong>Code</strong>:
-										        <a href="https://github.com/dwslab/melt"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">MELT matching framework</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
+											<a href="https://github.com/dwslab/melt"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">MELT matching framework</a> (<span class="badge badge-primary" data-toggle="tooltip"
+											  data-placement="top" title="License">MIT</span>)</span></li>
 										<li><strong>Data</strong>:
-										        <a href="http://oaei.ontologymatching.org/2020/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">OAEI tracks</a></span></li>
-										</ul>
-									</li>
-									<li>Ling Cai, Krzysztof Janowicz, Bo Yan, Rui Zhu and Gengchen Mai. Time in a Box: Advancing Knowledge Graph Completion with Temporal Scopes</li>
-									<li>Markus Schröder, Christian Jilek and Andreas Dengel. Spread2RML: Constructing Knowledge Graphs by Predicting RML Mappings on Messy Spreadsheets
-										<ul>
+											<a href="http://oaei.ontologymatching.org/2020/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">OAEI tracks</a></span></li>
+									</ul>
+								</li>
+								<li>Ling Cai, Krzysztof Janowicz, Bo Yan, Rui Zhu and Gengchen Mai. Time in a Box: Advancing Knowledge Graph Completion with Temporal Scopes</li>
+								<li>Markus Schröder, Christian Jilek and Andreas Dengel. Spread2RML: Constructing Knowledge Graphs by Predicting RML Mappings on Messy Spreadsheets
+									<ul>
 										<li><strong>Code</strong>:
-										        <a href="http://www.dfki.uni-kl.de/~mschroeder/demo/spread2rml/#code"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Spread2RML; FnO functions; matching and evaluation source code in Java">Code</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
+											<a href="http://www.dfki.uni-kl.de/~mschroeder/demo/spread2rml/#code"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Spread2RML; FnO functions; matching and evaluation source code in Java">Code</a>
+											(<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
 										<li><strong>Data</strong>:
-										        <a href="http://www.dfki.uni-kl.de/~mschroeder/demo/spread2rml/#code"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Ground truth datasets: Data Sprout and data.gov">Data</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
-										</ul>
-									</li>
-									<li>Thomas Delva, Sitt Min Oo, Dylan Van Assche, Sven Lieber and Anastasia Dimou. RML2SHACL: RDF generation taking shape
-										<ul>
+											<a href="http://www.dfki.uni-kl.de/~mschroeder/demo/spread2rml/#code"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Ground truth datasets: Data Sprout and data.gov">Data</a> (<span class="badge badge-primary"
+											  data-toggle="tooltip" data-placement="top" title="License">Apache 2.0</span>)</span></li>
+									</ul>
+								</li>
+								<li>Thomas Delva, Sitt Min Oo, Dylan Van Assche, Sven Lieber and Anastasia Dimou. RML2SHACL: RDF generation taking shape
+									<ul>
 										<li><strong>Code</strong>:
-										        <a href="https://github.com/RMLio/RML2SHACL/tree/kcap21"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">RML2SHACL code</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
+											<a href="https://github.com/RMLio/RML2SHACL/tree/kcap21"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">RML2SHACL code</a> (<span class="badge badge-primary" data-toggle="tooltip"
+											  data-placement="top" title="License">MIT</span>)</span></li>
 										<li><strong>Data</strong>:
-										<ul>
-										<li>
-										        <a href="https://github.com/RMLio/RML2SHACL/tree/kcap21/shapes/astrea_test "><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Ontology RML2SHACL shapes</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
-										<li>
-										        <a href="https://github.com/RMLio/RML2SHACL/tree/kcap21/shapes"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">RML test cases RML2SHACL shapes</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
-										</ul>
+											<ul>
+												<li>
+													<a href="https://github.com/RMLio/RML2SHACL/tree/kcap21/shapes/astrea_test "><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Ontology RML2SHACL shapes</a> (<span class="badge badge-primary"
+													  data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
+												<li>
+													<a href="https://github.com/RMLio/RML2SHACL/tree/kcap21/shapes"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">RML test cases RML2SHACL shapes</a> (<span class="badge badge-primary"
+													  data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
+											</ul>
 										</li>
-										</ul>
-									</li>
-									<li>Adnan Akhter, Muhammad Saleem, Axel-Cyrille Ngonga Ngomo and Alexander Bigerl. Efficient RDF Knowledge Graph Partitioning Using Querying Workload
-										<ul>
+									</ul>
+								</li>
+								<li>Adnan Akhter, Muhammad Saleem, Axel-Cyrille Ngonga Ngomo and Alexander Bigerl. Efficient RDF Knowledge Graph Partitioning Using Querying Workload
+									<ul>
 										<li><strong>Code</strong>:
-										        <a href="https://github.com/dice-group/workload-aware-rdf-partitioning"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Workload-aware-rdf-partitioning</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">GPL-3.0 License </span>)</span></li>
-										</ul>
-									</li>
-									<li>Alberto Moya Loustaunau and Aidan Hogan. Predicting SPARQL Query Dynamics
-										<ul>
+											<a href="https://github.com/dice-group/workload-aware-rdf-partitioning"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Workload-aware-rdf-partitioning</a> (<span class="badge badge-primary"
+											  data-toggle="tooltip" data-placement="top" title="License">GPL-3.0 License </span>)</span></li>
+									</ul>
+								</li>
+								<li>Alberto Moya Loustaunau and Aidan Hogan. Predicting SPARQL Query Dynamics
+									<ul>
 										<li><strong>Code</strong>:
-										        <a href="https://github.com/amoya87/sparqldynamics/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">sparqldynamics</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">CC-BY-2.0</span>)</span></li>
-										</ul>
-									</li>
-									<li>Mohamad Yaser Jaradeh, Kuldeep Singh, Markus Stocker and Sören Auer. Triple Classification for Scholarly Knowledge Graph Completion
-										<ul>
+											<a href="https://github.com/amoya87/sparqldynamics/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">sparqldynamics</a> (<span class="badge badge-primary" data-toggle="tooltip"
+											  data-placement="top" title="License">CC-BY-2.0</span>)</span></li>
+									</ul>
+								</li>
+								<li>Mohamad Yaser Jaradeh, Kuldeep Singh, Markus Stocker and Sören Auer. Triple Classification for Scholarly Knowledge Graph Completion
+									<ul>
 										<li><strong>Code</strong>:
-										        <a href="https://github.com/YaserJaradeh/exBERT"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="exBERT is a transformer-based model able to perform triple classification; predicate prediction; and head entity prediction ">exBERT</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
+											<a href="https://github.com/YaserJaradeh/exBERT"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="exBERT is a transformer-based model able to perform triple classification; predicate prediction; and head entity prediction ">exBERT</a>
+											(<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
 										<li><strong>Data</strong>:
-										        <a href="https://github.com/YaserJaradeh/exBERT/tree/main/data"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Data</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License">MIT</span>)</span></li>
-										</ul>
-									</li>
-									<li>Cristina-Iulia Bucur, Tobias Kuhn, Davide Ceolin and Jacco van Ossenbruggen. Expressing High-Level Scientific Claims with Formal Semantics
-										<ul>
+											<a href="https://github.com/YaserJaradeh/exBERT/tree/main/data"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Data</a> (<span class="badge badge-primary" data-toggle="tooltip"
+											  data-placement="top" title="License">MIT</span>)</span></li>
+									</ul>
+								</li>
+								<li>Cristina-Iulia Bucur, Tobias Kuhn, Davide Ceolin and Jacco van Ossenbruggen. Expressing High-Level Scientific Claims with Formal Semantics
+									<ul>
 										<li><strong>Code</strong>:
-										        <a href="https://colab.research.google.com/drive/1HuLPsJnnmuSovo2vF12L7_JnI7jcORmw?usp=sharing"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Code</a></span></li>
+											<a href="https://colab.research.google.com/drive/1HuLPsJnnmuSovo2vF12L7_JnI7jcORmw?usp=sharing"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Code</a></span></li>
 										<li><strong>Data</strong>:
-										<ul>
-										<li>
-										        <a href="https://github.com/LaraHack/linkflows_claims_dataset"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">linkflows_claims_dataset</a></span></li>
-										<li>
-										        <a href="https://github.com/LaraHack/linkflows_formalization_study"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Formalization study for the evaluation of the "super-pattern" approach ">linkflows_formalization_study</a></span></li>
+											<ul>
+												<li>
+													<a href="https://github.com/LaraHack/linkflows_claims_dataset"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">linkflows_claims_dataset</a></span></li>
+												<li>
+													<a href="https://github.com/LaraHack/linkflows_formalization_study"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="Formalization study for the evaluation of the " super-pattern" approach
+														  ">linkflows_formalization_study</a></span></li>
 										</ul>
 										</li>
 										</ul>
@@ -344,36 +653,40 @@ $(document).ready(function(){
 									<li>Michel Wijkstra, Timo Lek, Tobias Kuhn, Kasper Welbers and Mickey Steijaert. Living Literature Reviews
 										<ul>
 										<li><strong>Code</strong>:
-										        <a href="https://github.com/ucds-vu/living-reviews/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Living Literature Reviews</a></span></li>
-										<li><strong>Data</strong>:
-										        <a href="https://github.com/ucds-vu/living-reviews/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Living Literature Reviews</a></span></li>
-										</ul>
-									</li>
-									<li>Ibrahim Abdelaziz, Julian Dolby, James P McCusker and Kavitha Srinivas. A Toolkit for Generating Code Knowledge Graphs
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://github.com/wala/graph4code"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">graph4code</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License"> EPL-2.0 License </span>)</span></li>
-										<li><strong>Data</strong>:
-										        <a href="https://wala.github.io/graph4code/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">graph4code</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top" title="License"> EPL-2.0 License </span>)</span></li>
-										</ul>
-									</li>
-									<li>Reham Alharbi, Valentina Tamma and Floriana Grasso. Characterising the Gap Between Theory and Practice of Ontology Reuse
-										<ul>
-										<li><strong>Data</strong>:
-										        <a href="https://www.allcounted.com/share?view=questions&cid=etfbfn66ab4ja&lang=en_US"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">The Candidate Measures for Assessing Ontology(s) Reusability</a></span></li>
-										</ul>
-									</li>
-									<li>Ghadah Alghamdi, Renate A. Schmidt, Warren Del-Pinto and Yongsheng Gao. Upwardly Abstracted Definition-Based Subontologies</li>
-									<li>Ariam Rivas Méndez and Maria Esther Vidal. Capturing Knowledge about Drug-Drug Interactions to Enhance Treatment Effectiveness
-										<ul>
-										<li><strong>Code</strong>:
-										        <a href="https://capturing-knowledge-ddi.herokuapp.com/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Code</a></span></li>
-										</ul>
-									</li>
-									<li>Martin Mansfield, Valentina Tamma, Phil Goddard and Frans Coenen. Capturing Expert Knowledge for Building Enterprise SME Knowledge Graphs</li>
+										        <a href="
+														  https://github.com/ucds-vu/living-reviews/"> <i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Living Literature Reviews</a></span></li>
+												<li><strong>Data</strong>:
+													<a href="https://github.com/ucds-vu/living-reviews/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Living Literature Reviews</a></span></li>
+											</ul>
+										</li>
+										<li>Ibrahim Abdelaziz, Julian Dolby, James P McCusker and Kavitha Srinivas. A Toolkit for Generating Code Knowledge Graphs
+											<ul>
+												<li><strong>Code</strong>:
+													<a href="https://github.com/wala/graph4code"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">graph4code</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top"
+													  title="License"> EPL-2.0 License </span>)</span></li>
+												<li><strong>Data</strong>:
+													<a href="https://wala.github.io/graph4code/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">graph4code</a> (<span class="badge badge-primary" data-toggle="tooltip" data-placement="top"
+													  title="License"> EPL-2.0 License </span>)</span></li>
+											</ul>
+										</li>
+										<li>Reham Alharbi, Valentina Tamma and Floriana Grasso. Characterising the Gap Between Theory and Practice of Ontology Reuse
+											<ul>
+												<li><strong>Data</strong>:
+													<a href="https://www.allcounted.com/share?view=questions&cid=etfbfn66ab4ja&lang=en_US"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">The Candidate Measures for Assessing Ontology(s)
+															Reusability</a></span></li>
+											</ul>
+										</li>
+										<li>Ghadah Alghamdi, Renate A. Schmidt, Warren Del-Pinto and Yongsheng Gao. Upwardly Abstracted Definition-Based Subontologies</li>
+										<li>Ariam Rivas Méndez and Maria Esther Vidal. Capturing Knowledge about Drug-Drug Interactions to Enhance Treatment Effectiveness
+											<ul>
+												<li><strong>Code</strong>:
+													<a href="https://capturing-knowledge-ddi.herokuapp.com/"><i class="fas fa-external-link-alt"></i> <span data-toggle="tooltip" data-placement="top" title="">Code</a></span></li>
+											</ul>
+										</li>
+										<li>Martin Mansfield, Valentina Tamma, Phil Goddard and Frans Coenen. Capturing Expert Knowledge for Building Enterprise SME Knowledge Graphs</li>
 
-								</ul>
-							</p>
+									</ul>
+									</p>
 						</div>
 					</div>
 				</div>
@@ -404,7 +717,7 @@ $(document).ready(function(){
 	<script src="js/scrolling-nav.js"></script>
 
 	<script type="text/turtle">
-	@prefix ns1: <https://schema.org/> .
+		@prefix ns1: <https://schema.org/> .
 	@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 	<https://w3id.org/okn/kcap/i/Author_100> a ns1:Person ;
@@ -3339,6 +3652,13 @@ $(document).ready(function(){
 	    ns1:nationality "Netherlands" ;
 	    ns1:url "http://www.mariekevanerp.com"^^xsd:anyURI .
 </script>
+
+	<script>
+		$(".pop").on("click", function() {
+			$('#imagepreview').attr('src', $(this).find("img").attr('src'));
+			$('#imagemodal').modal('show');
+		});
+	</script>
 
 </body>
 
