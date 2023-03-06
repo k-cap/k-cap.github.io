@@ -1,0 +1,89 @@
+@media (max-width: 992px) {
+	.logo {
+		text-align: center!important;
+	}
+	.title {
+		text-align: center!important;
+	}
+	.role-profile {
+		text-align: center!important;
+	}
+	.profile-details {
+		text-align: center!important;
+	}
+	.profile {
+		padding-top: 25px!important;
+	}
+}
+
+.slot {
+	background-color:#16166b;
+	color: white;
+	text-align: center;
+}
+
+.keynote {
+	background-color:#f0a5a5;
+	color: white;
+	text-align: center;
+}
+
+.image-profile {
+	text-align: center!important;
+	height: 115px;
+	width: 115px;
+	border-radius: 50%;
+}
+
+.side {
+	/* border-style: double;
+	border-color: #000078;*/
+	margin-bottom: 10px;
+	padding: 4px;
+}
+
+.title-section {
+	background: #000078;
+	color: white;
+
+}
+
+
+
+.side h4 {
+	background: #000078;
+	color: white;
+
+}
+
+header {
+    padding: 110px 0 50px;
+}
+
+.tableh {
+	background: #085680;
+	color: white;
+	text-align: center;
+
+}
+
+
+
+@media (min-width: 992px) {
+	.logo {
+		text-align: left!important;
+	}
+	.title {
+		text-align: right!important;
+	}
+	.role-profile {
+		text-align: right!important;
+	}
+	.profile-details {
+		text-align: left!important;
+	}
+	.profile {
+		padding-top: 50px!important;
+	}
+
+}
