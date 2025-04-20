@@ -33,6 +33,7 @@
 	height: 115px;
 	width: 115px;
 	border-radius: 50%;
+	object-fit: cover; 
 }
 
 .side {
@@ -83,3 +84,10 @@ header {
 	}
 
 }
+
+.cogan-profile {
+	height: 150px; /* Adjust height */
+	width: 150px; /* Adjust width */
+	object-fit: cover; /* Ensures the image doesn't look skewed */
+	border-radius: 50%; /* Keeps it circular */
+  }
