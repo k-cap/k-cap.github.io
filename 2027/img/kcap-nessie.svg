@@ -1,20 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 300 290">
-  <!-- K-CAP 2027 x NeSy 2027: a constellation "K" whose arms become Nessie.
+  <!-- K-CAP 2027 x NeSy 2027: a constellation "K" (teal) whose arms become Nessie (slate).
        TODO 2027: placeholder until an official logo exists -->
-  <path d="M20 140 q15 -12 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0" fill="none" stroke="#0f9488" stroke-opacity="0.35" stroke-width="2.5" stroke-linecap="round"/>
-  <g stroke="#151a23" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round">
-    <line x1="60" y1="44" x2="60" y2="100"/>
-    <line x1="60" y1="100" x2="60" y2="150"/>
-    <line x1="60" y1="150" x2="60" y2="200"/>
-    <line x1="60" y1="200" x2="60" y2="250"/>
-    <line x1="60" y1="150" x2="94" y2="118"/>
-    <line x1="94" y1="118" x2="126" y2="86"/>
+  <path d="M20 140 q15 -12 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0" fill="none" stroke="#0f9488" stroke-opacity="0.3" stroke-width="2.5" stroke-linecap="round"/>
+  <g stroke="#7a8494" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round">
     <line x1="126" y1="86" x2="152" y2="54"/>
     <line x1="152" y1="54" x2="156" y2="26"/>
     <line x1="156" y1="26" x2="140" y2="14"/>
     <line x1="140" y1="14" x2="122" y2="22"/>
-    <line x1="60" y1="150" x2="98" y2="186"/>
-    <line x1="98" y1="186" x2="134" y2="220"/>
     <line x1="98" y1="186" x2="146" y2="166"/>
     <line x1="146" y1="166" x2="196" y2="152"/>
     <line x1="196" y1="152" x2="244" y2="164"/>
@@ -31,22 +23,13 @@
     <line x1="134" y1="220" x2="160" y2="262"/>
     <line x1="238" y1="226" x2="224" y2="262"/>
   </g>
-  <g fill="#151a23">
-    <circle cx="60" cy="44" r="5"/>
-    <circle cx="60" cy="100" r="4.5"/>
-    <circle cx="60" cy="150" r="7" fill="#0f9488"/>
-    <circle cx="60" cy="200" r="4.5"/>
-    <circle cx="60" cy="250" r="5"/>
-    <circle cx="94" cy="118" r="4.5"/>
-    <circle cx="126" cy="86" r="4.5"/>
+  <g fill="#7a8494">
     <circle cx="152" cy="54" r="5"/>
-    <circle cx="156" cy="26" r="5.5" fill="#0f9488"/>
+    <circle cx="156" cy="26" r="5.5"/>
     <circle cx="140" cy="14" r="4"/>
     <circle cx="122" cy="22" r="5"/>
-    <circle cx="98" cy="186" r="4.5"/>
-    <circle cx="134" cy="220" r="5.5"/>
     <circle cx="146" cy="166" r="4.5"/>
-    <circle cx="196" cy="152" r="5.5" fill="#0f9488"/>
+    <circle cx="196" cy="152" r="5.5"/>
     <circle cx="244" cy="164" r="4.5"/>
     <circle cx="188" cy="232" r="4.5"/>
     <circle cx="238" cy="226" r="4.5"/>
@@ -57,5 +40,26 @@
     <circle cx="122" cy="260" r="3.5"/>
     <circle cx="160" cy="262" r="3.5"/>
     <circle cx="224" cy="262" r="3.5"/>
+  </g>
+  <g stroke="#0f9488" stroke-width="3.5" stroke-linecap="round">
+    <line x1="60" y1="44" x2="60" y2="100"/>
+    <line x1="60" y1="100" x2="60" y2="150"/>
+    <line x1="60" y1="150" x2="60" y2="200"/>
+    <line x1="60" y1="200" x2="60" y2="250"/>
+    <line x1="60" y1="150" x2="94" y2="118"/>
+    <line x1="94" y1="118" x2="126" y2="86"/>
+    <line x1="60" y1="150" x2="98" y2="186"/>
+    <line x1="98" y1="186" x2="134" y2="220"/>
+  </g>
+  <g fill="#0f9488">
+    <circle cx="60" cy="44" r="6.5"/>
+    <circle cx="60" cy="100" r="6.0"/>
+    <circle cx="60" cy="150" r="8.5"/>
+    <circle cx="60" cy="200" r="6.0"/>
+    <circle cx="60" cy="250" r="6.5"/>
+    <circle cx="94" cy="118" r="6.0"/>
+    <circle cx="126" cy="86" r="6.0"/>
+    <circle cx="98" cy="186" r="6.0"/>
+    <circle cx="134" cy="220" r="7.0"/>
   </g>
 </svg>
