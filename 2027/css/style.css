@@ -1,36 +1,212 @@
+/* K-CAP 2027 palette: charcoal + warm ivory, with a restrained antique-gold accent
+   (a quiet nod to Pittsburgh's black & gold). Change colours here only. */
 :root {
-	/* TODO 2027: set the K-CAP 2027 brand colour here */
-	--kcap-color: #31a9e0;
+	--kcap-ink: #1f2226;        /* navbar, headings */
+	--kcap-text: #33373d;       /* body text */
+	--kcap-muted: #6b6f76;
+	--kcap-paper: #f7f5f0;      /* header background */
+	--kcap-line: #e4e0d6;
+	--kcap-gold: #b58a3c;       /* decorative rules and accents only */
+	--kcap-gold-light: #d9b56a; /* accents on dark backgrounds */
+	--kcap-link: #8a6420;       /* gold dark enough for readable text links */
+
+	--kcap-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+	--kcap-sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
-@media (max-width: 992px) {
-	.logo {
-		text-align: center!important;
-	}
-	.title {
-		text-align: center!important;
-	}
-	.role-profile {
-		text-align: center!important;
-	}
-	.profile-details {
-		text-align: center!important;
-	}
-	.profile {
-		padding-top: 25px!important;
-	}
+/* ---- Typography --------------------------------------------------------------------------- */
+body {
+	font-family: var(--kcap-sans);
+	font-size: 1rem;
+	line-height: 1.7;
+	color: var(--kcap-text);
+	background: #fff;
 }
 
-.slot {
-	background-color:#16166b;
-	color: white;
-	text-align: left;
+h1, h2, h3, h4, h5 {
+	font-family: var(--kcap-serif);
+	font-weight: 600;
+	color: var(--kcap-ink);
+	letter-spacing: 0.01em;
 }
 
-.keynote {
-	background-color:#f0a5a5;
-	color: white;
-	text-align: left;
+h1 { font-size: 2.6rem; }
+h2 { font-size: 2.2rem; margin-bottom: 1.25rem; }
+h4 { font-size: 1.5rem; margin-top: 2rem; }
+
+a {
+	color: var(--kcap-link);
+	text-decoration: underline;
+	text-decoration-color: rgba(181, 138, 60, 0.4);
+	text-underline-offset: 3px;
+}
+
+a:hover {
+	color: var(--kcap-ink);
+	text-decoration-color: var(--kcap-gold);
+}
+
+.tba {
+	color: var(--kcap-muted);
+	font-style: italic;
+}
+
+/* ---- Navigation --------------------------------------------------------------------------- */
+#mainNav {
+	background: var(--kcap-ink);
+	border-bottom: 2px solid var(--kcap-gold);
+	font-size: 0.9rem;
+}
+
+#mainNav a {
+	text-decoration: none;
+}
+
+#mainNav .nav-link {
+	color: rgba(255, 255, 255, 0.82);
+	letter-spacing: 0.02em;
+}
+
+#mainNav .nav-link:hover,
+#mainNav .nav-link:focus {
+	color: var(--kcap-gold-light);
+}
+
+#mainNav .dropdown-menu {
+	border: 0;
+	border-top: 2px solid var(--kcap-gold);
+	border-radius: 0;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+	font-size: 0.9rem;
+}
+
+#mainNav .dropdown-item:hover,
+#mainNav .dropdown-item:focus {
+	background: var(--kcap-paper);
+	color: var(--kcap-ink);
+}
+
+/* ---- Home header -------------------------------------------------------------------------- */
+header {
+	padding: 130px 0 70px;
+}
+
+header.bg-light {
+	background: var(--kcap-paper) !important;
+	border-bottom: 1px solid var(--kcap-line);
+}
+
+.title h1 {
+	font-size: 3.6rem;
+	font-weight: 700;
+	margin-bottom: 0.25rem;
+}
+
+.title h3 {
+	font-size: 1.6rem;
+	font-weight: 500;
+	font-style: italic;
+	color: var(--kcap-text);
+	margin-bottom: 1.5rem;
+}
+
+.title .rule {
+	display: inline-block;
+	width: 64px;
+	height: 2px;
+	background: var(--kcap-gold);
+	margin-bottom: 1.25rem;
+}
+
+.title p {
+	margin-bottom: 0.2rem;
+	font-size: 0.95rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--kcap-ink);
+}
+
+.title p.when {
+	font-weight: 600;
+}
+
+.title p.colocated {
+	margin-top: 0.9rem;
+	text-transform: none;
+	letter-spacing: 0.01em;
+	color: var(--kcap-muted);
+}
+
+/* ---- Section titles and sidebar ----------------------------------------------------------- */
+.title-section,
+.side h4 {
+	font-family: var(--kcap-sans);
+	font-size: 0.78rem;
+	font-weight: 600;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: var(--kcap-ink);
+	background: none;
+	text-align: left !important;
+	padding-bottom: 0.5rem;
+	margin: 0 0 0.9rem;
+	border-bottom: 1px solid var(--kcap-line);
+	position: relative;
+}
+
+.title-section::after,
+.side h4::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	width: 36px;
+	height: 2px;
+	background: var(--kcap-gold);
+}
+
+.title-section {
+	margin-top: 2.5rem;
+}
+
+.side {
+	margin-bottom: 2rem;
+	padding: 0;
+	font-size: 0.88rem;
+	line-height: 1.6;
+}
+
+.side ul {
+	padding-left: 1.1rem;
+	margin-bottom: 0.5rem;
+}
+
+.side li {
+	margin-bottom: 0.35rem;
+}
+
+.side li::marker {
+	color: var(--kcap-gold);
+}
+
+.side .text-center {
+	text-align: left !important;
+}
+
+/* ---- Committees and people ---------------------------------------------------------------- */
+.role-profile h4 {
+	font-size: 1.35rem;
+	margin-top: 0;
+	color: var(--kcap-muted);
+	font-style: italic;
+	font-weight: 500;
+}
+
+.profile-details b {
+	font-family: var(--kcap-serif);
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: var(--kcap-ink);
 }
 
 .image-profile {
@@ -38,37 +214,50 @@
 	height: 115px;
 	width: 115px;
 	border-radius: 50%;
-	object-fit: cover; 
+	object-fit: cover;
 }
 
-.side {
-	/* border-style: double;
-	border-color: var(--kcap-color);*/
-	margin-bottom: 10px;
-	padding: 4px;
+.chair-profile {
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+	border-radius: 50%;
 }
 
-.title-section {
-	background: var(--kcap-color);
+/* ---- Programme tables --------------------------------------------------------------------- */
+.slot {
+	background-color: var(--kcap-ink);
 	color: white;
-
+	text-align: left;
 }
 
-.side h4 {
-	background: var(--kcap-color);
+.keynote {
+	background-color: var(--kcap-gold);
 	color: white;
-
-}
-
-header {
-    padding: 110px 0 50px;
+	text-align: left;
 }
 
 .tableh {
-	background: var(--kcap-color);
+	background: var(--kcap-ink);
 	color: white;
 	text-align: left;
+}
 
+/* ---- Responsive --------------------------------------------------------------------------- */
+@media (max-width: 992px) {
+	.logo,
+	.title,
+	.role-profile,
+	.profile-details {
+		text-align: center!important;
+	}
+	.profile {
+		padding-top: 25px!important;
+	}
+	.title h1 {
+		font-size: 2.8rem;
+		margin-top: 1.5rem;
+	}
 }
 
 @media (min-width: 992px) {
@@ -85,24 +274,21 @@ header {
 		text-align: left!important;
 	}
 	.profile {
-		padding-top: 50px!important;
+		padding-top: 40px!important;
 	}
-
 }
 
-.chair-profile {
-	height: 150px; /* Adjust height */
-	width: 150px; /* Adjust width */
-	object-fit: cover; /* Ensures the image doesn't look skewed */
-	border-radius: 50%; /* Keeps it circular */
-  }
-
-
-#mainNav {
-	background: var(--kcap-color);
+/* ---- Refinements -------------------------------------------------------------------------- */
+.text-justify {
+	hyphens: auto;
 }
 
-.tba {
-	color: #6c757d;
-	font-style: italic;
+.side .text-justify {
+	text-align: left !important;
+	hyphens: manual;
+}
+
+/* Profile rows without a photo yet: don't reserve the photo's height */
+.image-profile:not(:has(img)) {
+	height: auto;
 }

@@ -1,6 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <!-- TODO 2027: placeholder, replace with the official K-CAP 2027 logo -->
-  <circle cx="100" cy="100" r="96" fill="#31a9e0"/>
-  <text x="100" y="95" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="44" font-weight="bold" fill="#fff">K-CAP</text>
-  <text x="100" y="145" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#fff">2027</text>
+  <circle cx="100" cy="100" r="98" fill="#1f2226"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#b58a3c" stroke-width="1.5"/>
+  <!-- a suspension-bridge arch, for Pittsburgh's bridges -->
+  <path d="M42 128 Q100 84 158 128" fill="none" stroke="#b58a3c" stroke-width="2"/>
+  <line x1="42" y1="132" x2="158" y2="132" stroke="#b58a3c" stroke-width="2"/>
+  <g stroke="#b58a3c" stroke-width="1">
+    <line x1="62" y1="116" x2="62" y2="132"/><line x1="81" y1="109" x2="81" y2="132"/>
+    <line x1="100" y1="106" x2="100" y2="132"/><line x1="119" y1="109" x2="119" y2="132"/>
+    <line x1="138" y1="116" x2="138" y2="132"/>
+  </g>
+  <text x="100" y="92" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="bold" letter-spacing="1" fill="#f7f5f0">K-CAP</text>
+  <text x="100" y="160" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="6" fill="#d9b56a">2027</text>
 </svg>
