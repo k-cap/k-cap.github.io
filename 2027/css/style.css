@@ -1,0 +1,326 @@
+/* K-CAP 2027 palette: neutral slate with a single teal accent. Change colours here only. */
+:root {
+	--kcap-ink: #151a23;        /* navbar, headings */
+	--kcap-text: #2f3542;       /* body text */
+	--kcap-muted: #667085;
+	--kcap-paper: #f4f6f8;      /* header background */
+	--kcap-line: #e2e6eb;
+	--kcap-accent: #0f9488;     /* rules, bullets, highlights */
+	--kcap-accent-light: #5eead4; /* accents on dark backgrounds */
+	--kcap-link: #0b7268;       /* accent dark enough for readable text links */
+
+	--kcap-head: "Space Grotesk", "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+	--kcap-sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* ---- Typography --------------------------------------------------------------------------- */
+body {
+	font-family: var(--kcap-sans);
+	font-size: 1rem;
+	line-height: 1.7;
+	color: var(--kcap-text);
+	background: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: var(--kcap-head);
+	font-weight: 600;
+	color: var(--kcap-ink);
+	letter-spacing: -0.01em;
+}
+
+h1 { font-size: 2.4rem; }
+h2 { font-size: 2rem; margin-bottom: 1.25rem; }
+h4 { font-size: 1.3rem; margin-top: 2rem; }
+
+a {
+	color: var(--kcap-link);
+	text-decoration: underline;
+	text-decoration-color: rgba(15, 148, 136, 0.35);
+	text-underline-offset: 3px;
+}
+
+a:hover {
+	color: var(--kcap-ink);
+	text-decoration-color: var(--kcap-accent);
+}
+
+.tba {
+	color: var(--kcap-muted);
+	font-style: italic;
+}
+
+/* ---- Navigation --------------------------------------------------------------------------- */
+#mainNav {
+	background: var(--kcap-ink);
+	border-bottom: 2px solid var(--kcap-accent);
+	font-size: 0.9rem;
+}
+
+#mainNav a {
+	text-decoration: none;
+}
+
+#mainNav .nav-link {
+	color: rgba(255, 255, 255, 0.82);
+	letter-spacing: 0.02em;
+}
+
+#mainNav .nav-link:hover,
+#mainNav .nav-link:focus {
+	color: var(--kcap-accent-light);
+}
+
+#mainNav .dropdown-menu {
+	border: 0;
+	border-top: 2px solid var(--kcap-accent);
+	border-radius: 0;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+	font-size: 0.9rem;
+}
+
+#mainNav .dropdown-item:hover,
+#mainNav .dropdown-item:focus {
+	background: var(--kcap-paper);
+	color: var(--kcap-ink);
+}
+
+/* ---- Home header -------------------------------------------------------------------------- */
+header {
+	padding: 130px 0 70px;
+}
+
+header.bg-light {
+	background-color: var(--kcap-paper) !important;
+	background-image: radial-gradient(rgba(21, 26, 35, 0.09) 1px, transparent 1px);
+	background-size: 22px 22px;
+	border-bottom: 1px solid var(--kcap-line);
+}
+
+.title h1 {
+	font-size: 3.4rem;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	margin-bottom: 0.25rem;
+}
+
+.title h3 {
+	font-size: 1.35rem;
+	font-weight: 500;
+	color: var(--kcap-text);
+	margin-bottom: 1.5rem;
+}
+
+.title .rule {
+	display: inline-block;
+	width: 56px;
+	height: 3px;
+	background: var(--kcap-accent);
+	margin-bottom: 1.25rem;
+}
+
+.title p {
+	margin-bottom: 0.2rem;
+	font-size: 1.05rem;
+	color: var(--kcap-ink);
+}
+
+.title p.when {
+	font-family: var(--kcap-head);
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+.hero-mark {
+	width: 100%;
+	max-width: 340px;
+}
+
+/* "Co-located with NeSy" badge in the home header */
+.title .colocated {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.75rem;
+	margin-top: 1.1rem;
+	padding: 0.4rem 1rem 0.4rem 0.4rem;
+	background: #fff;
+	border: 1px solid var(--kcap-line);
+	border-radius: 10px;
+	color: var(--kcap-muted);
+	font-size: 0.85rem;
+	line-height: 1.3;
+	text-align: left;
+	text-decoration: none;
+}
+
+.title .colocated img {
+	height: 52px;
+	border-radius: 6px;
+}
+
+.title .colocated strong {
+	font-family: var(--kcap-head);
+	font-size: 1.1rem;
+	color: var(--kcap-ink);
+}
+
+.title .colocated:hover {
+	border-color: var(--kcap-accent);
+}
+
+/* ---- Section titles and sidebar ----------------------------------------------------------- */
+.title-section,
+.side h4 {
+	font-family: var(--kcap-head);
+	font-size: 0.8rem;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--kcap-ink);
+	background: none;
+	text-align: left !important;
+	padding-bottom: 0.5rem;
+	margin: 0 0 0.9rem;
+	border-bottom: 1px solid var(--kcap-line);
+	position: relative;
+}
+
+.title-section::after,
+.side h4::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	width: 32px;
+	height: 3px;
+	background: var(--kcap-accent);
+}
+
+.title-section {
+	margin-top: 2.5rem;
+}
+
+.side {
+	margin-bottom: 2rem;
+	padding: 0;
+	font-size: 0.88rem;
+	line-height: 1.6;
+}
+
+.side ul {
+	padding-left: 1.1rem;
+	margin-bottom: 0.5rem;
+}
+
+.side li {
+	margin-bottom: 0.35rem;
+}
+
+.side li::marker {
+	color: var(--kcap-accent);
+}
+
+.side .text-center {
+	text-align: left !important;
+}
+
+/* ---- Committees and people ---------------------------------------------------------------- */
+.role-profile h4 {
+	font-size: 0.85rem;
+	margin-top: 0.35rem;
+	color: var(--kcap-muted);
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.profile-details b {
+	font-family: var(--kcap-head);
+	font-size: 1.15rem;
+	font-weight: 600;
+	color: var(--kcap-ink);
+}
+
+.image-profile {
+	text-align: center!important;
+	height: 115px;
+	width: 115px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.chair-profile {
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+/* ---- Programme tables --------------------------------------------------------------------- */
+.slot {
+	background-color: var(--kcap-ink);
+	color: white;
+	text-align: left;
+}
+
+.keynote {
+	background-color: var(--kcap-accent);
+	color: white;
+	text-align: left;
+}
+
+.tableh {
+	background: var(--kcap-ink);
+	color: white;
+	text-align: left;
+}
+
+/* ---- Responsive --------------------------------------------------------------------------- */
+@media (max-width: 992px) {
+	.logo,
+	.title,
+	.role-profile,
+	.profile-details {
+		text-align: center!important;
+	}
+	.profile {
+		padding-top: 25px!important;
+	}
+	.title h1 {
+		font-size: 2.8rem;
+		margin-top: 1.5rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.logo {
+		text-align: left!important;
+	}
+	.title {
+		text-align: right!important;
+	}
+	.role-profile {
+		text-align: right!important;
+	}
+	.profile-details {
+		text-align: left!important;
+	}
+	.profile {
+		padding-top: 40px!important;
+	}
+}
+
+/* ---- Refinements -------------------------------------------------------------------------- */
+.text-justify {
+	hyphens: auto;
+}
+
+.side .text-justify {
+	text-align: left !important;
+	hyphens: manual;
+}
+
+/* Profile rows without a photo yet: don't reserve the photo's height */
+.image-profile:not(:has(img)) {
+	height: auto;
+}
