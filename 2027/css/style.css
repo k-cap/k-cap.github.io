@@ -131,9 +131,41 @@ header.bg-light {
 	font-weight: 600;
 }
 
-.title p.colocated {
-	margin-top: 0.9rem;
+.hero-mark {
+	width: 100%;
+	max-width: 340px;
+}
+
+/* "Co-located with NeSy" badge in the home header */
+.title .colocated {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.75rem;
+	margin-top: 1.1rem;
+	padding: 0.4rem 1rem 0.4rem 0.4rem;
+	background: #fff;
+	border: 1px solid var(--kcap-line);
+	border-radius: 10px;
 	color: var(--kcap-muted);
+	font-size: 0.85rem;
+	line-height: 1.3;
+	text-align: left;
+	text-decoration: none;
+}
+
+.title .colocated img {
+	height: 52px;
+	border-radius: 6px;
+}
+
+.title .colocated strong {
+	font-family: var(--kcap-head);
+	font-size: 1.1rem;
+	color: var(--kcap-ink);
+}
+
+.title .colocated:hover {
+	border-color: var(--kcap-accent);
 }
 
 /* ---- Section titles and sidebar ----------------------------------------------------------- */
