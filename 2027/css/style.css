@@ -1,0 +1,108 @@
+:root {
+	/* TODO 2027: set the K-CAP 2027 brand colour here */
+	--kcap-color: #31a9e0;
+}
+
+@media (max-width: 992px) {
+	.logo {
+		text-align: center!important;
+	}
+	.title {
+		text-align: center!important;
+	}
+	.role-profile {
+		text-align: center!important;
+	}
+	.profile-details {
+		text-align: center!important;
+	}
+	.profile {
+		padding-top: 25px!important;
+	}
+}
+
+.slot {
+	background-color:#16166b;
+	color: white;
+	text-align: left;
+}
+
+.keynote {
+	background-color:#f0a5a5;
+	color: white;
+	text-align: left;
+}
+
+.image-profile {
+	text-align: center!important;
+	height: 115px;
+	width: 115px;
+	border-radius: 50%;
+	object-fit: cover; 
+}
+
+.side {
+	/* border-style: double;
+	border-color: var(--kcap-color);*/
+	margin-bottom: 10px;
+	padding: 4px;
+}
+
+.title-section {
+	background: var(--kcap-color);
+	color: white;
+
+}
+
+.side h4 {
+	background: var(--kcap-color);
+	color: white;
+
+}
+
+header {
+    padding: 110px 0 50px;
+}
+
+.tableh {
+	background: var(--kcap-color);
+	color: white;
+	text-align: left;
+
+}
+
+@media (min-width: 992px) {
+	.logo {
+		text-align: left!important;
+	}
+	.title {
+		text-align: right!important;
+	}
+	.role-profile {
+		text-align: right!important;
+	}
+	.profile-details {
+		text-align: left!important;
+	}
+	.profile {
+		padding-top: 50px!important;
+	}
+
+}
+
+.chair-profile {
+	height: 150px; /* Adjust height */
+	width: 150px; /* Adjust width */
+	object-fit: cover; /* Ensures the image doesn't look skewed */
+	border-radius: 50%; /* Keeps it circular */
+  }
+
+
+#mainNav {
+	background: var(--kcap-color);
+}
+
+.tba {
+	color: #6c757d;
+	font-style: italic;
+}

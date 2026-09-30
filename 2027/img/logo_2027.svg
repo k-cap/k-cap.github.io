@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- TODO 2027: placeholder, replace with the official K-CAP 2027 logo -->
+  <circle cx="100" cy="100" r="96" fill="#31a9e0"/>
+  <text x="100" y="95" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="44" font-weight="bold" fill="#fff">K-CAP</text>
+  <text x="100" y="145" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#fff">2027</text>
+</svg>
