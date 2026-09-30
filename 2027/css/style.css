@@ -1,16 +1,15 @@
-/* K-CAP 2027 palette: charcoal + warm ivory, with a restrained antique-gold accent
-   (a quiet nod to Pittsburgh's black & gold). Change colours here only. */
+/* K-CAP 2027 palette: neutral slate with a single teal accent. Change colours here only. */
 :root {
-	--kcap-ink: #1f2226;        /* navbar, headings */
-	--kcap-text: #33373d;       /* body text */
-	--kcap-muted: #6b6f76;
-	--kcap-paper: #f7f5f0;      /* header background */
-	--kcap-line: #e4e0d6;
-	--kcap-gold: #b58a3c;       /* decorative rules and accents only */
-	--kcap-gold-light: #d9b56a; /* accents on dark backgrounds */
-	--kcap-link: #8a6420;       /* gold dark enough for readable text links */
+	--kcap-ink: #151a23;        /* navbar, headings */
+	--kcap-text: #2f3542;       /* body text */
+	--kcap-muted: #667085;
+	--kcap-paper: #f4f6f8;      /* header background */
+	--kcap-line: #e2e6eb;
+	--kcap-accent: #0f9488;     /* rules, bullets, highlights */
+	--kcap-accent-light: #5eead4; /* accents on dark backgrounds */
+	--kcap-link: #0b7268;       /* accent dark enough for readable text links */
 
-	--kcap-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+	--kcap-head: "Space Grotesk", "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 	--kcap-sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
@@ -24,26 +23,26 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: var(--kcap-serif);
+	font-family: var(--kcap-head);
 	font-weight: 600;
 	color: var(--kcap-ink);
-	letter-spacing: 0.01em;
+	letter-spacing: -0.01em;
 }
 
-h1 { font-size: 2.6rem; }
-h2 { font-size: 2.2rem; margin-bottom: 1.25rem; }
-h4 { font-size: 1.5rem; margin-top: 2rem; }
+h1 { font-size: 2.4rem; }
+h2 { font-size: 2rem; margin-bottom: 1.25rem; }
+h4 { font-size: 1.3rem; margin-top: 2rem; }
 
 a {
 	color: var(--kcap-link);
 	text-decoration: underline;
-	text-decoration-color: rgba(181, 138, 60, 0.4);
+	text-decoration-color: rgba(15, 148, 136, 0.35);
 	text-underline-offset: 3px;
 }
 
 a:hover {
 	color: var(--kcap-ink);
-	text-decoration-color: var(--kcap-gold);
+	text-decoration-color: var(--kcap-accent);
 }
 
 .tba {
@@ -54,7 +53,7 @@ a:hover {
 /* ---- Navigation --------------------------------------------------------------------------- */
 #mainNav {
 	background: var(--kcap-ink);
-	border-bottom: 2px solid var(--kcap-gold);
+	border-bottom: 2px solid var(--kcap-accent);
 	font-size: 0.9rem;
 }
 
@@ -69,12 +68,12 @@ a:hover {
 
 #mainNav .nav-link:hover,
 #mainNav .nav-link:focus {
-	color: var(--kcap-gold-light);
+	color: var(--kcap-accent-light);
 }
 
 #mainNav .dropdown-menu {
 	border: 0;
-	border-top: 2px solid var(--kcap-gold);
+	border-top: 2px solid var(--kcap-accent);
 	border-radius: 0;
 	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 	font-size: 0.9rem;
@@ -92,58 +91,58 @@ header {
 }
 
 header.bg-light {
-	background: var(--kcap-paper) !important;
+	background-color: var(--kcap-paper) !important;
+	background-image: radial-gradient(rgba(21, 26, 35, 0.09) 1px, transparent 1px);
+	background-size: 22px 22px;
 	border-bottom: 1px solid var(--kcap-line);
 }
 
 .title h1 {
-	font-size: 3.6rem;
+	font-size: 3.4rem;
 	font-weight: 700;
+	letter-spacing: -0.02em;
 	margin-bottom: 0.25rem;
 }
 
 .title h3 {
-	font-size: 1.6rem;
+	font-size: 1.35rem;
 	font-weight: 500;
-	font-style: italic;
 	color: var(--kcap-text);
 	margin-bottom: 1.5rem;
 }
 
 .title .rule {
 	display: inline-block;
-	width: 64px;
-	height: 2px;
-	background: var(--kcap-gold);
+	width: 56px;
+	height: 3px;
+	background: var(--kcap-accent);
 	margin-bottom: 1.25rem;
 }
 
 .title p {
 	margin-bottom: 0.2rem;
-	font-size: 0.95rem;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
+	font-size: 1.05rem;
 	color: var(--kcap-ink);
 }
 
 .title p.when {
+	font-family: var(--kcap-head);
+	font-size: 1.3rem;
 	font-weight: 600;
 }
 
 .title p.colocated {
 	margin-top: 0.9rem;
-	text-transform: none;
-	letter-spacing: 0.01em;
 	color: var(--kcap-muted);
 }
 
 /* ---- Section titles and sidebar ----------------------------------------------------------- */
 .title-section,
 .side h4 {
-	font-family: var(--kcap-sans);
-	font-size: 0.78rem;
-	font-weight: 600;
-	letter-spacing: 0.16em;
+	font-family: var(--kcap-head);
+	font-size: 0.8rem;
+	font-weight: 700;
+	letter-spacing: 0.12em;
 	text-transform: uppercase;
 	color: var(--kcap-ink);
 	background: none;
@@ -160,9 +159,9 @@ header.bg-light {
 	position: absolute;
 	left: 0;
 	bottom: -1px;
-	width: 36px;
-	height: 2px;
-	background: var(--kcap-gold);
+	width: 32px;
+	height: 3px;
+	background: var(--kcap-accent);
 }
 
 .title-section {
@@ -186,7 +185,7 @@ header.bg-light {
 }
 
 .side li::marker {
-	color: var(--kcap-gold);
+	color: var(--kcap-accent);
 }
 
 .side .text-center {
@@ -195,16 +194,17 @@ header.bg-light {
 
 /* ---- Committees and people ---------------------------------------------------------------- */
 .role-profile h4 {
-	font-size: 1.35rem;
-	margin-top: 0;
+	font-size: 0.85rem;
+	margin-top: 0.35rem;
 	color: var(--kcap-muted);
-	font-style: italic;
-	font-weight: 500;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
 }
 
 .profile-details b {
-	font-family: var(--kcap-serif);
-	font-size: 1.3rem;
+	font-family: var(--kcap-head);
+	font-size: 1.15rem;
 	font-weight: 600;
 	color: var(--kcap-ink);
 }
@@ -232,7 +232,7 @@ header.bg-light {
 }
 
 .keynote {
-	background-color: var(--kcap-gold);
+	background-color: var(--kcap-accent);
 	color: white;
 	text-align: left;
 }
