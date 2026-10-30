@@ -324,3 +324,8 @@ header.bg-light {
 .image-profile:not(:has(img)) {
 	height: auto;
 }
+
+/* Space between people listed under the same role */
+.col-lg-9 > .row + .row {
+	margin-top: 1.25rem;
+}
